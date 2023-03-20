@@ -16,4 +16,12 @@ mac         https://sourceforge.net/projects/git-osx-installer/
 - склонировать репозиторий  
 ![clone repo](./git/step4.png)   
 - ссылка на репозиторий https://github.com/Coursor-Frontend/cursor_fe_5  
-![clone repo](./git/step5.png)    
+![clone repo](./git/step5.png)  
+
+## команды GIT
+- клонировать репозиторий                           -> git clone 			
+- обновить локальный репозиторий (на компьютере)    -> git pull  
+- создать свою ветку                                -> git create branch 		
+- зафиксировать изменения                           -> git commit			
+- отправить изменения в репозиторий                 -> git push 
+![image info](./git/step6.png)   

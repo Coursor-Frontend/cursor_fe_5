@@ -1,0 +1,80 @@
+.boxModel {
+    box-sizing: border-box;
+    background-color: aqua; 
+    width: 50vw;
+    height: 50vh;
+    /* margin: 50px; */
+    /* padding: 20px; */
+    /* border: 5px solid hotpink; */
+    /* border-radius: 30px; */
+    /* display: inline-block; */
+}
+
+.boxModel2 {
+    box-sizing: border-box;
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    /* margin: 50px;
+    padding: 20px;
+    border: 5px solid hotpink;
+    border-radius: 30px;
+    display: inline-block; */
+}
+
+
+body * + * { margin-top: 1.5em;}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  min-height: 500px;
+  background-color: grey;
+/* flex-direction ---------------   */
+/*   flex-direction: row            */
+/*                   row-reverse    */
+/*                   column         */
+/*                   column-reverse */
+  
+/* flex-wrap ---------------  */
+/*   flex-wrap: nowrap;       */
+/*              wrap;         */
+/*              wrap-reverse; */
+
+/* flex-flow -------------- */  
+/*   flex-flow: row nowrap; */
+  
+/* justify-content ---------------   */
+/*   justify-content: flex-start;    */
+/*                    center         */
+/*                    flex-end;      */
+/*                    space-around;  */
+/*                    space-between; */
+ 
+/* align-items -------------- */
+/*   align-items: stretch;    */
+/*                flex-end;   */
+/*                flex-start; */
+/*                flex-end;   */
+/*                baseline;   */
+  
+/* align-content ----------------- */ 
+/*   align-content: space-between; */
+/*                  space-around;  */
+/*                  stretch;       */
+/*                  flex-start;    */
+/*                  center;        */
+/*                  flex-end;      */
+}
+
+.flex-container > div {
+  background-color: lightgrey;
+  margin: 10px;
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+  font-size: 30px;
+}
