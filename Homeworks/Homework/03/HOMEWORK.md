@@ -8,3 +8,5 @@
 создать папку в homework  
 и подготовить картинки с макета фигмы  
 https://www.figma.com/file/uBVvw9W4EwmcqLciklQOuw/Freebie---Gift-Store-Website-Template?node-id=0%3A1&t=J75fOaE8ckp1QDLy-1
+
+исправить (zeka) комментарии
