@@ -1,0 +1,61 @@
+<!--
+    Zeka(vika01)
+    рассмотрите комментарии ниже
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson 2 homework form</title>
+    <style>
+        form{
+        width: 669px;
+        }
+    #remark {
+        display: block;
+        margin: 50px;
+    }
+    </style>
+</head>
+<body>
+    <h2>Форма Регистрации</h2>
+    <form>
+        <fieldset>
+        <label for="login">Введите свой логин:</label>
+        <input type="text" name="login">
+        <label for="password">Введите свой пароль:</label>
+        <input type="password" name="password">
+    </fieldset>
+    <br>
+     <fieldset>
+        <legend><mark>Дополнительная информация о себе:</mark></legend>
+        <p><b> Укажите пол</b></p>
+        <input type="radio" name="sex" value="male"> Мужской
+        <br><input type="radio" name="sex" value="female"> Женский 
+        
+        <p><b>Укажите дату рождения</b></p>
+        <label for="date">День рождения:</label>
+        <input type="date" name="date">
+
+        <p><b>Место проживания</b></p>
+        <label for="city">Ваш город</label>
+        <input type="text" name="city">
+     </fieldset>
+     <fieldset>
+        <legend><mark>Ваши хобби:</mark></legend>
+        <p class="remark">Можно выбрать любое колличество увлечений</p>
+        <!-- В примере варианты словно разделены на две колонки. Они разделены или как-то выровнены? Или все из-за того что в примере сброшены стили браузера по умолчанию?-->
+        <!-- zeka Попробуйте использовать таблицу <tr> <td> тогда каждый инпут будет на своём месте :) -->
+        <input type="checkbox"> Путешествовать
+        <input type="checkbox"> Программировать <br>
+        <input type="checkbox"> Рисовать
+        <input type="checkbox"> Играть на музыкальных инструментах
+     </fieldset>
+     <fieldset>
+        <legend><mark>Свое поле</mark></legend>
+        <textarea>Коротко расскажите о себе</textarea>
+     </fieldset>
+     <br><button>Отправить</button>
+    </form>
+
+</body>
+</html>

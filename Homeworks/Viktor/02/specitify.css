@@ -1,0 +1,26 @@
+p {}  /*Специфичность - 0.0.0.0.1*/                                 
+
+.titleClass {} /*Специфичность - 0.0.0.1.0*/                        
+
+#titleId {} /*Специфичность -/0.0 1.0.0*/                            
+
+p.titleClass {} /*Специфичность - 0.0.0.1.1*/                        
+
+p#titleId {} /*Специфичность - .0.0.1.0.1*/                           
+
+p#titleId.titleClass1.titleClass2 {} /*Специфичность - 0.0.1.2.1*/  
+
+p em {} /*Специфичность - 0.0.0.0.2*/                                 
+
+p .class {} /*Специфичность - 0.0.0.1.1*/                             
+
+p .class {color: red !important } /*Специфичность - 1.0.0.1.1*/                     
+
+(p em) /* 0.0.0.0.2<0.0.0.1.1 */ (p.class) 
+(#m_d) /* 0.0.1.0.0>0.0.0.1.1 */ (em.m_cl)
+
+/*1.0.3 < 1.1.2*/
+(div p#my_id span) /* 0.0.1.0.3< 0.0.1.1.1*/ (div[title*="City"] span#s_id) 
+
+/*0.4.4 > 0.2.5*/
+(div>div.my_class p[contenteditable].red_color span:hover) /* 0.0.0.2.4<0.0.0.2.5 */ (div p+div[title="css"] p.green_color span) 

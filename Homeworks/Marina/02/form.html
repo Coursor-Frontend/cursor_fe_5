@@ -1,0 +1,117 @@
+<!--
+    zeka(marina01)
+    структура документа должна быть следующей
+    <!DOCTYPE>
+    <html>
+        <head>
+        </head>
+        <body>
+
+        </body>
+    </html>
+-->
+
+<html> 
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px black solid;
+        }
+    </style>
+    <h1>Анкета знакомства
+    </h1>
+    <h2>Форма</h2>
+    <form>
+        <fieldset>
+            <label for="name">Имя</label>
+            <input id="name" type="text" placeholder="Name"/>
+            <label for="lastname">Фамилия</label>
+            <input id="lastname" type="text" placeholder="Lastname"/>
+        </fieldset>
+        <fieldset>
+            <legend>Дата рождения</legend>
+            <input type="date"/>
+        </fieldset>
+        <fieldset>
+            <legend>Пол</legend>
+            <label><input type="radio" name="m"/>М</label>
+            <label><input type="radio" name="m"/>Ж</label>
+        </fieldset>
+        <fieldset>
+            <legend>О себе</legend> 
+            <label>Напишите о своих увлечениях</label>
+            <textarea placeholder="Hobby"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Кнопочка</legend>
+            <button type="submit">Отправить</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Выбрать свой город</legend>
+            <input id="riga" type="checkbox">
+            <label for="riga">Рига</label><br>
+            <input id="riga1" type="checkbox">
+            <label for="riga1">Даугавпилс</label><br>
+            <input id="riga2" type="checkbox">
+            <label for="riga2">Вентспилс</label><br>
+            <input id="riga3" type="checkbox">
+            <label for="riga3">Елгава</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Выбери любимое занятие</legend>
+            <select name="option" id="city-select" placeholder="rfgrg">
+                <option></option>
+                <option>живая музыка</option>
+                <option>спорт</option>
+                <option>рукоделие</option>
+                <option>природа</option>
+                <option>компьютерные игры</option>
+            </select>
+            <button>Нажми сюда</button>
+        </fieldset>
+    </form>
+    <hr>
+    <fieldset style="background-color:pink;">
+        <h2 style="color: blueviolet;">Реклама</h2>
+        <a href="https://www.220.lv/">Лучший магазин</a>
+   </fieldset> 
+   <hr>
+    <article id="content">
+        <h3>Как найти свое призвание</h3>
+        <ol>
+            <li>Оцените уровень своих текущих навыков</li>
+            <li>Сформулируйте, какие задачи вы бы хотели выполнять</li>
+            <li>Составьте интеллектуальную карту</li>
+            <li>Подумайте, что вы бы делали, если не нужно было бы зарабатывать деньги</li>
+        </ol>
+    </article>
+    <hr>
+    
+    <table>
+        <caption>Таблица</caption>
+        <thead>
+        <tr>
+            <th>name1</th>
+            <th>name2</th>
+            <th>name3</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>text1</td>
+                <td>text2</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>part1</td>
+                <td>part2</td>
+                <td></td>
+            </tr>  
+        </tbody>
+    </table>
+    <hr>
+    <img src="img_lights.jpg" alt="Lights of North"/>
+</html>

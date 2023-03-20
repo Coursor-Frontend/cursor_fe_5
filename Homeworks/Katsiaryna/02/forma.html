@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Форма регистрации</h1>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Логин</legend>
+                <ul class="list-reset flex">
+                    <li>
+                        <label for="username">Введите свой логин<abbr title="заполнение обязательно">*</abbr></label>
+                        <input id="username" type="text" name="username" placeholder="Логин" required>
+                    </li>
+                    <li>
+                        <label for="password">Введите пароль<abbr title="заполнение обязательно">*</abbr></label>
+                        <input id="password" type="password" name="password" placeholder="Пароль" required>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend><mark>Дополнительная информация о&nbsp;себе</mark></legend>
+                <ul class="list-reset">
+                    <li>
+                        <h2 class="title">Укажите пол</h2>
+                        <label for="m">
+                            <input id="m" type="radio" name="gender" value="M">
+                            Мужской
+                        </label>
+                        <label for="w">
+                            <input id="w" type="radio" name="gender" value="W">
+                            Женский
+                        </label>
+                    </li>
+                    <li>
+                        <h2 class="title">Укажите дату рождения</h2>
+                        <label for="age">
+                            Дата рождения
+                            <input id="age" type="date" name="age">
+                        </label>
+                    </li>
+                    <li>
+                        <h2 class="title">Место проживания</h2>
+                        <label for="city-select">
+                            Ваш город
+                        </label>
+                        <select name="city" id="city-select">
+                            <optgroup label="Латвия">
+                                <option value="Рига">Рига</option>
+                                <option value="Резекне">Резекне</option>
+                            </optgroup>
+                            <optgroup label="Беларусь">
+                                <option value="Минск">Минск</option>
+                                <option value="Могилев">Могилев</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend><mark>Ваши хобби:</mark></legend>
+                <p>Можно выбрать любое количество увлечений</p>
+                <ul class="list-reset flex">
+                    <li class="hobby-item">
+                        <label>
+                            <input type="checkbox" name="hobby[]" value="Путешествия">Путешествия
+                        </label>
+                    </li>
+                    <li class="hobby-item">
+                        <label>
+                            <input type="checkbox" name="hobby[]" value="Программировать">Программировать
+                        </label>
+                    </li>
+                    <li class="hobby-item">
+                        <label>
+                            <input type="checkbox" name="hobby[]" value="Рисовать">Рисовать
+                        </label>
+                    </li>
+                    <li class="hobby-item">
+                        <label>
+                            <input type="checkbox" name="hobby[]" value="Играть на музыкальных инструментах">Играть на
+                            музыкальных инструментах
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend><mark>Контакты</mark></legend>
+                <ul class="list-reset">
+                    <li>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="mail" placeholder="ivanov@gmail.com" id="email" required>
+                    </li>
+                    <li>
+                        <label for="number">Телефон:</label>
+                        <input type="tel" name="phone" placeholder="+371-00-00-000" id="number" maxlength="21" required>
+                    </li>
+                </ul>
+            </fieldset>
+                <div>
+                    <label for="message">Сообщение</label>
+                    <textarea name="comment" placeholder="Расскажите обо всём, что для вас важно" id="message"></textarea>
+                  </div>
+            <button type="submit">Отправить</button>
+            <p>Поля, обязательные для заполнения <strong><abbr title="required">*</abbr></strong>.</p>
+        </form>
+    </div>
+</body>
+
+</html>

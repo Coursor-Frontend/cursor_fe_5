@@ -1,0 +1,69 @@
+<!--
+    zeka(Viktor)Form
+    1) раставить отступы (табуляторы)
+    2) посмотреть коментарии ниже
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="форма.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Форма регистрации</h2>
+    <form>
+        <fieldset>
+            <label>Введите свой логин</label>
+            <input type="text">
+            <label>Введите пароль</label>
+            <input type="password">
+        </fieldset><br>
+        <fieldset>
+            <legend style="background-color:
+        gold;">
+                Дополнительная информация о себе:
+            </legend>
+            <h4>Укажите пол</h4>
+<input type="radio">
+<label>Мужской</label><br>
+<input type="radio">
+<label>Женский</label>
+<h4>Укажите дату рождения</h4>
+<label>День рождения</label>
+<input type="date">
+<h4>Место проживания</h4>
+<label>Ваш город</label>
+<input type="text">
+        </fieldset><br>
+        <fieldset>
+<legend style="background-color: gold;">Ваши хобби:</legend>
+<p style="text-indent: 50px;">
+    <!-- zeka Обернуть инпуты в таблицу что бы было ровно -->
+Можно выбрать любое количество увлечений<br>
+<input type="checkbox">
+<label >Путешествия</label>
+<input type="checkbox">
+<label>Программировать</label><br>
+<input type="checkbox">
+<label>Рисовать</label>
+<input class="otstup" type="checkbox">
+<label>Играть на музыкальных инструментах</label></p>
+        </fieldset><br>
+        <fieldset>
+            <legend style="background-color: gold;">Как часто выезжаете зарубеж:
+        </legend>
+<input type="radio">
+<label>Один раз в месяц</label><br>
+<input type="radio">
+<label>Один раз в год</label><br>
+<input type="radio">
+<label>Один раз в жизни</label>
+        </fieldset><br>
+        <button>отправить</button>
+    </form>
+</body>
+</html>
