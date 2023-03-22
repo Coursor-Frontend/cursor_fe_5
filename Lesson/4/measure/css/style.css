@@ -1,0 +1,14 @@
+.boxModel {
+    box-sizing: border-box;
+    background-color: aqua; 
+    width: 50vw;
+    height: 50vh;
+}
+
+.boxModel2 {
+    box-sizing: border-box;
+    background-color: red;
+    width: 200px;
+    height: 150px;
+}
+
