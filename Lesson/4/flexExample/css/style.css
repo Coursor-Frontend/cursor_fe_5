@@ -1,12 +1,11 @@
 body * + * { margin-top: 1.5em;}
 .container {
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: 0 auto;
 }
 
 .flex-container {
   display: flex;
-  min-height: 500px;
   background-color: grey;
 /* flex-direction ---------------   */
 /*   flex-direction: row            */
@@ -48,8 +47,16 @@ body * + * { margin-top: 1.5em;}
 .flex-container > div {
   background-color: lightgrey;
   margin: 10px;
-  width: 75px;
-  height: 75px;
   padding: 20px;
   font-size: 30px;
+}
+
+.item1{
+  width: 500px;
+  /* flex-grow: 2; */
+}
+
+.item2 {
+  width: 500px;
+  /* flex-grow: 1; */
 }
