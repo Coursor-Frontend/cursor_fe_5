@@ -2,6 +2,7 @@
 https://github.com/Coursor-Frontend/cursor_fe_5  
 
 ## Лекции
+[Slides](https://github.com/Coursor-Frontend/cursor_fe_5/blob/main/Lesson/3/HTML-CSS.pdf)  
 
 
 ## Домашние работы 
@@ -11,9 +12,6 @@ https://github.com/Coursor-Frontend/cursor_fe_5
 [07-08]()  
 [09-10]()  
 [11-12]()  
-
-## Решение работ 
-
  
 ## Выполнение работ
 | Student               | Github           | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
