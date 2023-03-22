@@ -2,18 +2,17 @@
 https://github.com/Coursor-Frontend/cursor_fe_5  
 
 ## Лекции
+[Slides](https://github.com/Coursor-Frontend/cursor_fe_5/blob/main/Lesson/3/HTML-CSS.pdf)  
 
 
 ## Домашние работы 
-[01-02]()  
-[03-04](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/00/homework.md)  
+
+[01-02](https://github.com/Coursor-Frontend/cursor_fe_5/blob/main/Homeworks/Homework/01-02/HOMEWORK.md)  
+[03-04](https://github.com/Coursor-Frontend/cursor_fe_5/blob/main/Homeworks/Homework/03-04/HOMEWORK.md)  
 [05-06]()  
 [07-08]()  
 [09-10]()  
 [11-12]()  
-
-## Решение работ 
-
  
 ## Выполнение работ
 | Student               | Github           | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
