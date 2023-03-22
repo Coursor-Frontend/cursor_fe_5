@@ -6,6 +6,7 @@ https://github.com/Coursor-Frontend/cursor_fe_5
 
 
 ## Домашние работы 
+
 [01-02](https://github.com/Coursor-Frontend/cursor_fe_5/blob/main/Homeworks/Homework/01-02/HOMEWORK.md)  
 [03-04](https://github.com/Coursor-Frontend/cursor_fe_5/blob/main/Homeworks/Homework/03-04/HOMEWORK.md)  
 [05-06]()  
@@ -20,7 +21,7 @@ https://github.com/Coursor-Frontend/cursor_fe_5
 | Jevgenijs Voronovs    |                  |   |   |   |   |   |   |   |   |   |    |    |    |
 | Katsiaryna            | rauchtopaz-K     |   |   |   |   |   |   |   |   |   |    |    |    |
 | Marina                | MarinaChaharyna  |   |   |   |   |   |   |   |   |   |    |    |    |
-| Vika                  | waid95           |   |   |   |   |   |   |   |   |   |    |    |    |
+| Vika                  | waid95           |   |   | ✓ |   |   |   |   |   |   |    |    |    |
 | Viktor                | Viktor27         |   |   |   |   |   |   |   |   |   |    |    |    |
 
 llzmlll
