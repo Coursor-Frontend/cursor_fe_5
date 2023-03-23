@@ -52,11 +52,15 @@ body * + * { margin-top: 1.5em;}
 }
 
 .item1{
-  width: 500px;
-  /* flex-grow: 2; */
+  /* flex: 2 2 300px; */
+  /* width: 200px; */
+  /* flex-grow: 1; */
 }
 
 .item2 {
-  width: 500px;
-  /* flex-grow: 1; */
+  /* flex: 1 1 200px; */
+  /* width: 100px; */
+  /* flex-grow: 5; */
 }
+
+
