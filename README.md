@@ -2,7 +2,7 @@ test test test
 
 
 # Репозиторий
-https://github.com/Coursor-Frontend/cursor_fe_5  
+https://github.com8/Coursor-Frontend/cursor_fe_5  
 
 ## Лекции
 [Slides](https://github.com/Coursor-Frontend/cursor_fe_5/blob/main/Lesson/3/HTML-CSS.pdf)  
