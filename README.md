@@ -1,5 +1,5 @@
 # Репозиторий
-https://github.com/Coursor-Frontend/cursor_fe_5  
+https://github.com8/Coursor-Frontend/cursor_fe_5  
 
 ## Лекции
 
