@@ -1,13 +1,16 @@
 .nav-bottom{
     display: flex;
+    padding-top: 106px;
     justify-content: center;
-  
+    align-items: center;
+    
 }
 ul
 li {
     display: inline-block;
-    padding: 40px 30px;
-    ;
+    padding: 40px 20px;
+    font-weight: bold;
+  
 
 }
 
@@ -19,20 +22,21 @@ hr{
     display: flex;
     justify-content: center;
 }
- img{
-    padding: 40px 15px;
+ .icons img {
+    margin: 40px 15px;
  }
 
  .left-bot-nav{
-    padding-right: 50px;
+    padding-right: 140px;
  }
- .right-bot-nav{
-    padding-left: 50px;
+ .right-bot-nav {
+    padding-left: 140px;
  }
- .copyright{
+ .copyright {
     display: flex;
     justify-content: center;
+    margin-bottom: 35px;
  }
- .date{
-    padding-left: 20px;
- }
+.privacy{
+   padding-left: 14px;
+}

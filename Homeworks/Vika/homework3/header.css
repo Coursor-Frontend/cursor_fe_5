@@ -3,17 +3,29 @@
     justify-content: space-between;
     align-items: center;
 }
-.top-btn{
-    height: 43px;
-    width: 150px;
+ .top-btn a {
+    display: flex;
+    height: 23px;
+    width: 101px;
+    padding: 14px 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    color: #F7941E;
+    font-size: 16px;
+    line-height: 21.6px;
+    text-transform: uppercase;
+
 }
 a {
     display: inline-block;
     padding: 30px 20px;
 }
 .top-logo{
-    padding-left: 50px;
+    margin: 39px 80px;
 }
 .top-btn {
-    margin-right: 20px;
+    margin: 36px;
 }
