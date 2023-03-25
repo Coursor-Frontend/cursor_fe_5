@@ -1,0 +1,14 @@
+.main-bottom{
+    display: flex;
+    max-width: 1400px;
+    min-width: 600px;
+    max-height: 700px;
+    min-height: 500px;
+}
+ 
+.left-pic {
+    background-image: url(pic/Background-left.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 50%; 
+}

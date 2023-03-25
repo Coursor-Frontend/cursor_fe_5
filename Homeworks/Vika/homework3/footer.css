@@ -1,0 +1,38 @@
+.nav-bottom{
+    display: flex;
+    justify-content: center;
+  
+}
+ul
+li {
+    display: inline-block;
+    padding: 40px 30px;
+    ;
+
+}
+
+hr{
+    color: black;
+    width: 1000px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+ img{
+    padding: 40px 15px;
+ }
+
+ .left-bot-nav{
+    padding-right: 50px;
+ }
+ .right-bot-nav{
+    padding-left: 50px;
+ }
+ .copyright{
+    display: flex;
+    justify-content: center;
+ }
+ .date{
+    padding-left: 20px;
+ }
