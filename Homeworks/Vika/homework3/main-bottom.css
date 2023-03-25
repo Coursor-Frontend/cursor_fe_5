@@ -5,10 +5,13 @@
     max-height: 700px;
     min-height: 500px;
 }
- 
+ .right{
+    width: 50%;
+ }
 .left-pic {
     background-image: url(pic/Background-left.png);
     background-size:contain;
     background-repeat: no-repeat;
-    width: 50%; 
+    width: 50%;
+    min-width: 720px; 
 }

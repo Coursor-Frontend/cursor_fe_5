@@ -3,6 +3,7 @@
 @import url(main-top.css);
 @import url(main-bottom.css);
 @import url(footer.css);
+@import url(wedding-block.css);
 @font-face {
     font-size: "Gilroy";
     src:local("Gilroy") 
