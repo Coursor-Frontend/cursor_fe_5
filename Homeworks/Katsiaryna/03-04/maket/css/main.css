@@ -1,0 +1,132 @@
+/* main section hero */
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 154px 126px 135px 162px;
+    max-width: 50%;
+}
+
+.hero-right {
+    width: 100%;
+    max-width: 50%;
+    background-image: url(../img/raster/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section obout */
+.about-container {
+    display: flex;
+}
+
+
+.about-left {
+    width: 100%;
+    max-width: 50%;
+    background-image: url(../img/raster/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 164px 166px 104px 112px;
+    max-width: 50%;
+}
+
+/* section services */
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-item {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 270px;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF
+}
+
+.services-text {
+    max-width: 80%;
+    padding-top: 294px;
+    padding-left: 24px;
+    padding-bottom: 24px
+}
+
+
+.services-item:nth-child(1) {
+    background-image: url(../img/raster/services1.png);
+}
+.services-item:nth-child(2) {
+    background-image: url(../img/raster/services2.png);
+}
+.services-item:nth-child(3) {
+    background-image: url(../img/raster/services3.png);
+}
+.services-item:nth-child(4) {
+    background-image: url(../img/raster/services4.png);
+}
+
+
+/* contacts */
+
+.contacts-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 235px 69px;
+    background-color: #F7941E;
+}
+
+.contacts-right {
+    display: flex;
+    align-items: center;
+}
+
+/* section blog */
+
+.blog-container {
+    padding: 0 135px;
+}
+
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.blog-item {
+    width: 570px;
+    padding: 50px;
+}
+
+.blog-item:nth-child(1) {
+    flex: 1;
+}
+
+.blog-item:nth-child(1) {
+    flex: 1;
+    padding: 63px 200px 49px 478px;
+    background-image: url(../img/raster/blog.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF
+}
