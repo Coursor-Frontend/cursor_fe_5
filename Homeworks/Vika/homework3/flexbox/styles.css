@@ -1,0 +1,62 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border: 5px solid white;
+    
+
+}
+.flex-container > div{
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgray;
+    width: 100px;
+}
+
+.flex-item1{
+    height: 120px;
+    
+    
+}
+.flex-item2{
+    
+    width: 100px;
+    
+
+}
+.flex-item3{
+    
+    width: 100px;
+    height: 300px;
+    align-self: flex-start;
+    
+
+} .flex-item4{
+    
+    height: 100px;
+    
+
+}
+.flex-item5{
+
+    height: 100px;
+    
+
+}
+.flex-item6{
+    
+
+    height: 100px;
+   
+
+}
+.flex-item7{
+    
+    
+    height: 100px;
+
+
+}
