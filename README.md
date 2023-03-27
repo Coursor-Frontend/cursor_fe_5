@@ -26,4 +26,5 @@ https://github.com8/Coursor-Frontend/cursor_fe_5
 | Marina                | MarinaChaharyna  |   |   | ✓ | ? |   |   |   |   |   |    |    |    |
 | Vika                  | waid95           |   |   | ✓ | ? |   |   |   |   |   |    |    |    |
 | Viktor                | Viktor27         |   |   | ✓ | ? |   |   |   |   |   |    |    |    |
+| Zlata                 | Zlata2023        |   |   | ✓ | ? |   |   |   |   |   |    |    |    |
 
