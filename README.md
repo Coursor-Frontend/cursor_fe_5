@@ -22,8 +22,8 @@ https://github.com8/Coursor-Frontend/cursor_fe_5
 | :-------------------- | :--------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|:--:|:--:|
 | Jelena                | llzmlll          |   |   |   |   |   |   |   |   |   |    |    |    |
 | Jevgenijs Voronovs    |                  |   |   |   |   |   |   |   |   |   |    |    |    |
-| Katsiaryna            | rauchtopaz-K     |   |   | ✓ |   |   |   |   |   |   |    |    |    |
-| Marina                | MarinaChaharyna  |   |   | ✓ |   |   |   |   |   |   |    |    |    |
-| Vika                  | waid95           |   |   | ✓ |   |   |   |   |   |   |    |    |    |
-| Viktor                | Viktor27         |   |   | ✓ |   |   |   |   |   |   |    |    |    |
+| Katsiaryna            | rauchtopaz-K     |   |   | ✓ | ✓ |   |   |   |   |   |    |    |    |
+| Marina                | MarinaChaharyna  |   |   | ✓ | ? |   |   |   |   |   |    |    |    |
+| Vika                  | waid95           |   |   | ✓ | ? |   |   |   |   |   |    |    |    |
+| Viktor                | Viktor27         |   |   | ✓ | ? |   |   |   |   |   |    |    |    |
 
