@@ -1,9 +1,11 @@
+@import url(resset);
 @font-face {
     font-size: "Gilroy";
     src: local("Gilroy") 
     url("Gilroy-FREE\Gilroy-FREE\Gilroy-Light.otf") 
     format(.otf);
 }
+    
 body{
     font-family: "Gilroy";
 }
