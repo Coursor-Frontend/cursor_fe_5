@@ -1,0 +1,20 @@
+.header{
+	display: flex;
+	justify-content:space-between;
+	margin-right: 80px;
+	align-items: center;
+  }
+  .content{
+	display: flex;
+	justify-content: right;
+  }
+  .header1{
+	margin-left: 80px;
+  }
+  .conteiner{
+	display: flex;
+	justify-content:space-between;
+	margin-right: 80px;
+	align-items: center;
+  }
+  
