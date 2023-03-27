@@ -1,20 +1,20 @@
 .header{
+    
     background-color: blue;
     padding: 10px;
    height: 300px;
 }
 .conteiner{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    
+     justify-content: space-between; 
+     align-items: start; 
 }
 .conteiner1{
-    display: flex; 
-    align-items: center;
+    display: flex;
     justify-content: space-around;
-    margin: 50px;
+    align-items: end;
 }
-
 .item1{
     width: 50px;
     height: 100px; 
