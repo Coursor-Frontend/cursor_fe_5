@@ -1,0 +1,44 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    border: 1px solid white;
+    background-color: darkgrey;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flex-container1 {
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container2 {
+    background-color: rgb(220, 170, 154);
+    width: 100px;
+    height: 70px;
+}
+
+.flex-container3 {
+    background-color: rgb(210, 148, 207);
+    width: 120px;
+    height: 250px;
+    margin: 10px;
+}
+
+.flex-container4 {
+    background-color: rgb(111, 156, 156);
+    width: 120px;
+    height: 120px;
+}
+
+.flex-container5 {
+    background-color: rgb(202, 238, 176);
+    width: 140px;
+    height: 140px;
+}
