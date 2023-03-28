@@ -1,72 +1,77 @@
-.header{
-    
-    background-color: blue;
-    padding: 10px;
-   height: 300px;
-}
-.conteiner{
-    display: flex;
-    
-     justify-content: space-between; 
-     align-items: start; 
-}
-.conteiner1{
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
-}
-.item1{
-    width: 50px;
-    height: 100px; 
-    border:1px solid black;
-    background-color: brown;
-}
-.item2{
-    width: 50px;
-    height: 45px; 
-    border:1px solid black;
-    background-color: cadetblue;
-}
-.item3{
-    width: 50px;
-    height: 200px; 
-    border:1px solid black;
-    background-color: gold;
-}
-.item4{
-    width: 50px;
-    height: 50px; 
-    border:1px solid black;
-    background-color: green;
-}
-.item5
-{
-    width: 50px;
-    height: 50px; 
-    border:1px solid black;
-    background-color: green;
-}
-.item4{
-    width: 50px;
-    height: 50px; 
-    border:1px solid black;
-    background-color: green;
-}
-.item5{
-    width: 50px;
-    height: 50px; 
-    border:1px solid black;
-    background-color: green;
-}
-.item6{
-    width: 50px;
-    height: 50px; 
-    border:1px solid black;
-    background-color: gray;
-}
-.item7{
-    width: 50px;
-    height: 50px; 
-    border:1px solid black;
-    background-color: rosybrown;
-}
+.flex-conteiner {
+        display: flex;
+        flex-wrap: wrap;
+        background: grey;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .item1 {
+        background: lightgrey;
+        width: 90px;
+        height: 100px;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .item2 {
+        background: lightgrey;
+        width: 90px;
+        height: 50px;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .item3 {
+        background: lightgrey;
+        width: 90px;
+        height: 150px;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .item4 {
+        background: lightgrey;
+        width: 90px;
+        height: 90px;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .item4 {
+        background: lightgrey;
+        width: 90px;
+        height: 90px;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .item5 {
+        background: lightgrey;
+        width: 90px;
+        height: 90px;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .item6 {
+        background: lightgrey;
+        width: 90px;
+        height: 90px;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .item7 {
+        background: lightgrey;
+        width: 90px;
+        height: 90px;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .conteiner {
+        max-width: 600px;
+    }
+
+
+  
