@@ -1,10 +1,9 @@
-.nav-bottom{
+.nav-bottom {
     display: flex;
     padding-top: 106px;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    
+  
 }
 ul
 li {
@@ -15,7 +14,7 @@ li {
 
 }
 
-hr{
+hr {
     color: black;
     width: 1000px;
 }
@@ -27,7 +26,7 @@ hr{
     margin: 40px 15px;
  }
 
- .left-bot-nav{
+ .left-bot-nav {
     padding-right: 140px;
  }
  .right-bot-nav {
@@ -38,6 +37,6 @@ hr{
     justify-content: center;
     margin-bottom: 35px;
  }
-.privacy{
+.privacy {
    padding-left: 14px;
 }
