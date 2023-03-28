@@ -1,19 +1,19 @@
 
-.main {
+.hero-block {
     display: flex;
 }
 .left {
     width: 50%;
     height: 50px;
     height: 40vh;
-    background-color: red;
+    background-color: lightcyan;
 } 
 
 .right {
     width: 50%;
     height: 40vh;
     background-color: aquamarine;
-    background-image: url(../icons/facebook.svg);
+    background-image: url(../img/main1.jpeg);
     background-size: cover;
     background-position: center;
 }

@@ -6,7 +6,7 @@
 
 */
 /* relative */
-.box {
+/* .box {
     height: 100px;
     position: relative;
 }
@@ -23,22 +23,33 @@
 .box__4 {
     background-color: grey;
     position: sticky;
-    top: 10px
-}
+    /* position: fixed; */
+    /* top: 10px
+} */
 
-.center {
-    display: flex;
-    height: 60vh;
+.article {
+    height: 2000px;
+    /* position: relative; */
     background-color: lightgrey;
-    justify-content: center;
-    align-items: center;
 }
 
-.item {
-    width: 400px;
-    height: 400px;
-    text-align: center;
-    border: 1px solid black;
+.content {
+    height: 100px;
+    background-color: grey;
 }
 
-;
+.content3 {
+    background-color: red;
+    position: sticky;
+    top: 10px;
+}
+
+.article2 {
+    background-color: bisque;
+}
+
+.content4 {
+    background-color: rgb(0, 255, 119);
+    position: sticky;
+    top: 10px;
+}

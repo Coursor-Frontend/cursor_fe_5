@@ -46,3 +46,8 @@ button{
     text-align: center;
     text-transform: uppercase;
 }
+
+
+* {
+    border: 1px solid red !important;
+}

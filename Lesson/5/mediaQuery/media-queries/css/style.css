@@ -36,6 +36,8 @@ html, body {
     background-color: blueviolet;
 }
 
+
+
 @media only screen and (min-width: 1200px) {
     .nav,
     .widget {
@@ -44,5 +46,8 @@ html, body {
 
     .content {
         width: 50%;
+    }
+    .nav {
+        background-color: red;
     }
 }
