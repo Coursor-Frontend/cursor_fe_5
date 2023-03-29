@@ -1,0 +1,40 @@
+@import "resset.css";
+@import url("fonts/roboto/stylesheet.css")
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.navigation {
+    display: flex;
+}
+.navigation a {
+    margin: 0 20px;
+}
+.conteiner  {
+    max-width: 1200px;
+    min-width: 600px;
+    background-color: white;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+}
+.left text {
+    width: 50%;
+    height: 50px;
+    height: 80vh;
+    background-color: red;
+    font-family: Gilroy;
+}
+.right {
+    width: 50%;
+    height: 80vh;
+    background-color: aquamarine;
+    background-image: url(logo1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ button {
+    border-color: gold;
+}
