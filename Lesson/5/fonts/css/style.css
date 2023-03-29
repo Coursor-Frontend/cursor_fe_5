@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {background-color: lightgrey;}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+p {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: justify;
+    text-transform: lowercase;
+    /* font-style: italic; */
+    /* font-weight: 100; */
+    /* -webkit-font-smoothing: antialiased; */
+    /* letter-spacing: 3px; */
+    /* text-decoration: underline; */
+    /* text-decoration-style: double; */
+    /* text-decoration-color: red; */
+    /* text-decoration-thickness: 1px; */
+    /* text-decoration-skip-ink: none; */
+    /* text-rendering: optimizeLegibility; */
+    /* text-shadow: 5px 5px #e8082d; */
+    /* white-space: pre; */
+    /* overflow-wrap: break-word */
+    word-spacing: 5px;
+    text-indent: 20px;
+    writing-mode: horizontal-tb;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../custom-font/test.otf');
+}
+
+h2 {
+    font-family: "myFirstFont", sans-serif;
+}

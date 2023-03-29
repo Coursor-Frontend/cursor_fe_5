@@ -1,0 +1,18 @@
+.main-bottom{
+    display: flex;
+    max-width: 1400px;
+    min-width: 600px;
+    max-height: 700px;
+    min-height: 500px;
+    
+}
+ .right{
+    max-width: 50%;
+ }
+.left-pic {
+    background-image: url(../pic/Background-left.png);
+    background-repeat: no-repeat;
+    max-width: 50%;
+    width: 100%;
+   
+}

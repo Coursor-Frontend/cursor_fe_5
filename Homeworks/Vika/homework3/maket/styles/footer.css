@@ -1,0 +1,43 @@
+.nav-bottom{
+    display: flex;
+    padding-top: 106px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    
+}
+ul
+li {
+    display: inline-block;
+    padding: 40px 20px;
+    font-weight: bold;
+  
+
+}
+
+hr{
+    color: black;
+    width: 1000px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+ .icons img {
+    margin: 40px 15px;
+ }
+
+ .left-bot-nav{
+    padding-right: 140px;
+ }
+ .right-bot-nav {
+    padding-left: 140px;
+ }
+ .copyright {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+ }
+.privacy{
+   padding-left: 14px;
+}

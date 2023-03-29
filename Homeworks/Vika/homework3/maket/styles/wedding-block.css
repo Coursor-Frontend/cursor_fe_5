@@ -1,0 +1,42 @@
+
+.wedding-advert{
+    display: flex;
+    width: 1170px;
+    height: 370px;
+    margin: 40px auto;
+    justify-content: center;
+}
+ .wedding-advert-pic{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: stretch;
+
+    
+ }
+ .wedding-advert-text{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: stretch;
+    width: 770px;
+    background-color: black;
+    flex-direction: column;
+    padding-left: 90px;
+    color: white;
+ }
+ .slogan{
+    font-size: 48px;
+    line-height: 57px;
+    text-align: justify;
+    padding-right: 200pt;
+ }
+ .name{
+    margin-top: 65px;
+    font-size: 14px;
+    line-height: 20px;
+ }
+ .wedding-section-more-inf{
+    margin-bottom: 49px;
+    text-decoration: none;
+    color: white;
+ }
