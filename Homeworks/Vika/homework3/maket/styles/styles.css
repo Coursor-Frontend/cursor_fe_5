@@ -4,6 +4,8 @@
 @import url(main-bottom.css);
 @import url(footer.css);
 @import url(wedding-block.css);
+@import url(gifts-nav.css);
+
 @font-face {
     font-size: "Gilroy";
     src:local("Gilroy") 
@@ -19,19 +21,20 @@ div{
 }
 /*Text*/    
 
-h1 {
-    font-size: 64px;
-}  
-h2{
+h1 { font-size: 64px;}  
+h2 {
     font-size: 32px;
+    text-align: center;
+    margin: 40px;
 }
-h3{
-    font-size: 20px;
-
-}
-a{
+h3 {font-size: 24px;}
+h4 {font-size: 20px;}
+a {
     text-decoration:none;
     color: black;
+}
+p { text-align: center;
+    font-size: 18px;
 }
 li {
     font-family: "Gilroy";
@@ -49,5 +52,5 @@ button{
 
 
 * {
-    border: 1px solid red !important;
+        border: 1px solid red !important;
 }
