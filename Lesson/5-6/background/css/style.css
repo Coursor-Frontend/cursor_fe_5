@@ -1,0 +1,39 @@
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background {
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+
+.background_img {
+    background-color: grey;
+    background-image: url("../img/images.jpeg");
+}
+
+.background_pattern {
+    background-color: grey;
+    background-image: url("../img/pattern.jpeg");
+    background-size: 180px;
+}
+
+.background_multiple-img {
+    background-color: grey;
+    background-image:  url("../img/confeti.webp"), url("../img/images.jpeg");
+}
+
+.background_multiple-img {
+    background-image: image-set(
+        url("puppy@1x.webp") type("image/webp") 1x,
+        url("puppy@2x.webp") type("image/webp") 2x,
+        url("puppy@1x.png") type("image/png") 1x,
+        url("puppy@2x.png") type("image/png") 2x
+    );
+}

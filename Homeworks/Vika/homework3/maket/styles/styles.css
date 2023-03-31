@@ -11,11 +11,14 @@
     format(.otf);
 }
     
-body{
+body {
     font-family: "Gilroy";
+   
 }
-div{
+div {
     max-width: 1440px;
+    border: 1px dashed red;
+    margin: 0 auto;
 }
 /*Text*/    
 
@@ -29,7 +32,7 @@ h3{
     font-size: 20px;
 
 }
-a{
+a {
     text-decoration:none;
     color: black;
 }
@@ -45,4 +48,9 @@ button{
     background-color: #FAFAFA;
     text-align: center;
     text-transform: uppercase;
+}
+
+
+* {
+    border: 1px solid red !important;
 }

@@ -1,0 +1,71 @@
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pixels {
+    display: flex;
+    border: 2px solid black;
+}
+
+.pixel {
+    width: 30px;
+    height: 90px;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+.pixel_red { background-color: red;}
+.pixel_green { background-color: green;}
+.pixel_blue { background-color: blue;}
+
+
+h1 {font-size: 72px; text-align: center;margin: 25vh 0;}
+
+/* RGB */
+h1 {
+    color: red;
+
+    /* HEX  # 00 00 00 
+        R:  0 - F
+        G:  0 - F
+        B:  0 - F
+    */
+    color: #ff0000;
+
+    /* rgb(red, green, blue) | 0 - 255 */
+    color: rgb(255 0 0);
+    color: rgba(255, 0, 0, 0.5);
+    color: rgb(255 0 0 / 0.5);
+}
+
+/* HSL */
+/* 
+    hue             0 - 360deg 
+    saturation      0 - 100%
+    lightness       0 - 100%
+*/
+h1 {
+   color: hsl(0 100% 50%)
+}
+
+/* HWB */
+/* 
+    hue             0 - 360deg 
+    white           0 - 100%
+    black           0 - 100%
+*/
+h1 {
+    color: hwb(0 0% 0%);
+    border: 1px solid currentColor
+}
+
+/* currentColor */
+/* transparent */

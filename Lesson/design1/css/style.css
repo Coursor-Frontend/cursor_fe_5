@@ -1,6 +1,14 @@
 @import "reset.css";
 @import "common.css";
 @import "header.css";
+@import "main.css";
+
+html {
+    height: 4000px;
+}
+
+
+
 
 
 

@@ -1,37 +1,38 @@
-.main-top{
+.main-top {
     display: flex;
     max-width: 1440px;
     min-width: 600px;
     max-height: 700px;
     min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.left{ 
+.left { 
     width: 50%;
     padding-top: 154px;
     padding-left: 165px;
     
 } 
-.main-offer{
+.main-offer {
     font-size: 56px;
     line-height: 68px;
    
 }
-.main-question{
+.main-question {
     margin-top: 34px;
 }
-.middle-btn{
+.middle-btn {
     margin-top: 75px;
     margin-bottom: 150px;
 }
 
 .right-pic {
-    display: block;
     background-image: url(../pic/Background-right.png);
     background-size:contain;
     background-repeat: no-repeat;
-    position: relative;
-    width: 50%;
-    min-width: 720px;
+    width: 100%;
+    max-width: 50%;
+    
     
     
 }

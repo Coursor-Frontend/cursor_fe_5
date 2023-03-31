@@ -3,7 +3,8 @@
     display: flex;
     width: 1170px;
     height: 370px;
-    margin: 246px 135px 410px 135px;
+    margin: 40px auto;
+    justify-content: center;
 }
  .wedding-advert-pic{
     
