@@ -1,0 +1,101 @@
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container > button {
+  background-color: rgb(241, 241, 241); color: rgb(253, 122, 0);
+}
+
+.flex-container {
+  display: flex;
+  background-color: rgb(220, 226, 208);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container >img {
+  heigth: 380px;
+  width: 380px;
+}
+
+.flex-container1 {
+  display: flex;
+  background-color: rgb(230, 238, 187);
+  flex-direction: row;
+  justify-content: center
+}
+
+.flex-container1 > button {
+  background-color: rgb(175, 102, 75); color: azure;
+}
+
+.flex-container1 > img {
+  margin: 10px; 
+  padding: 20px; 
+  width: 380px;
+}
+
+.flex-container > div {
+  background-color: rgb(188, 201, 223);
+  margin: 10px;
+  font-size: 30px;
+  flex-direction: column;
+}
+
+.flex-container2 > div {
+  display: flex;
+  background-color: rgb(244, 103, 9);
+  margin: 10px;
+  font-size: 20px;
+}
+
+.flex-container3 {
+  display: flex;
+  background-color: rgb(237, 95, 6);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  align-content: space-around;
+  align-content: center;
+  text-size-adjust: h4;
+}
+
+.item2 {
+  width: max-content;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.item3 {
+  flex: 200px;
+  width: 200px;
+  padding: 0;
+}
+
+.item4 {
+  background-color: rgb(239, 114, 4);
+  flex: 300px;
+  width: 3000px;
+  flex-grow: 4;
+  position: static;
+  text-align: center;
+}
+
+.container3 {
+  padding-inline: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
