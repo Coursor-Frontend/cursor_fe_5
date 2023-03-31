@@ -1,0 +1,53 @@
+.gifts-nav {
+    text-align: center;
+    margin: 0 auto;
+}
+.gifts_for_special_days {
+    margin: 0 auto;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    
+}
+.gifts-nav_block {
+    background-repeat: no-repeat;
+    width: 25%;
+    margin: 30px;
+    width: 270px;
+    height: 450px;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+     
+
+}
+.gifts-nav_block-link {
+    align-self: flex-end;
+}
+.gifts-nav_block-title {
+   margin: 0 auto;
+    align-self: center;
+    position: absolute;
+    top: 64%;
+    left: 6%;
+
+    
+}
+.birthday {
+background-image: url(../pic/gift-block/birthday.png);
+
+}
+.anniversary {
+    background-image: url(../pic/gift-block/anniversary.png); 
+}
+.valentinse-day {
+    background-image: url(../pic/gift-block/valentines.png);
+}
+.christmas {
+    background-image: url(../pic/gift-block/christmas.png);
+}
+.gifts-nav_block .christmas {
+    flex-direction: column;
+    vertical-align: middle;
+}

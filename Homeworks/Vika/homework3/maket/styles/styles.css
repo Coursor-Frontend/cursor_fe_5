@@ -5,6 +5,7 @@
 @import url(footer.css);
 @import url(wedding-block.css);
 @import url(gifts-nav.css);
+@import url(block-form.css);
 
 @font-face {
     font-size: "Gilroy";
@@ -33,9 +34,7 @@ a {
     text-decoration:none;
     color: black;
 }
-p { text-align: center;
-    font-size: 18px;
-}
+p { font-size: 18px;}
 li {
     font-family: "Gilroy";
 }

@@ -21,6 +21,7 @@ hr{
 .icons {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
  .icons img {
     margin: 40px 15px;
@@ -36,6 +37,7 @@ hr{
     display: flex;
     justify-content: center;
     margin-bottom: 35px;
+    margin: 0 auto;
  }
 .privacy{
    padding-left: 14px;
