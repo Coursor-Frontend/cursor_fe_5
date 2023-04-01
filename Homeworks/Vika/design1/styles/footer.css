@@ -5,7 +5,6 @@
     align-items: center;
     
 }
-ul
 li {
     display: inline-block;
     padding: 40px 20px;
@@ -14,7 +13,7 @@ li {
 
 }
 
-hr{
+hr {
     color: black;
     width: 1000px;
 }
@@ -27,12 +26,6 @@ hr{
     margin: 40px 15px;
  }
 
- .left-bot-nav{
-    padding-right: 140px;
- }
- .right-bot-nav {
-    padding-left: 140px;
- }
  .copyright {
     display: flex;
     justify-content: center;
@@ -41,4 +34,9 @@ hr{
  }
 .privacy{
    padding-left: 14px;
+}
+@media only screen and (max-width:400px) { 
+   li {padding: 5px;}
+   .nav a {padding: 5px;}
+
 }

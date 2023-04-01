@@ -3,12 +3,36 @@
     height: 240px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
 }
 .form-question {
     font-weight: 700;
-    line-height:45px;
-    margin: 15px;
+    margin: 15px 5px;
 }
 .form-titles{
     position: relative;
+    width: 50%;
+}
+.scroll-butn{
+    width: 200px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.scroll-butn-black {
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width:400px) {
+    .form{
+        flex-direction: column;
+        height: auto;}
+  .scroll-butn{ margin: 20px; }  
+   
 }
