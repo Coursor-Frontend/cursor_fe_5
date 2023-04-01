@@ -1,0 +1,55 @@
+@import url(resset.css);
+@import url(header.css);
+@import url(main-top.css);
+@import url(main-bottom.css);
+@import url(footer.css);
+@import url(wedding-block.css);
+@import url(gifts-nav.css);
+@import url(block-form.css);
+
+@font-face {
+    font-size: "Gilroy";
+    src:local("Gilroy") 
+    url("Gilroy-FREE\Gilroy-FREE\Gilroy-Light.otf") 
+    format(.otf);
+}
+    
+body{
+    font-family: "Gilroy";
+}
+div{
+    max-width: 1440px;
+}
+/*Text*/    
+
+h1 { font-size: 64px;}  
+h2 {
+    font-size: 32px;
+    text-align: center;
+    margin: 40px;
+}
+h3 {font-size: 24px;}
+h4 {font-size: 20px;}
+a {
+    text-decoration:none;
+    color: black;
+}
+p { font-size: 18px;}
+li {
+    font-family: "Gilroy";
+}
+/*Buttons*/
+button{
+    height:60px;
+    width: 200px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+* {
+        border: 1px solid red !important;
+}
