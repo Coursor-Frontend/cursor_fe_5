@@ -49,12 +49,6 @@ background-image: url(../pic/gift-block/birthday.png);
 }
 
 
-@media only screen and (max-width:500px) {
-    .gifts-nav_block {
-        display: flex;
-        flex-direction: column;
-    }   
-}
 
 @media only screen and (max-width:1000px) {
     .birthday {
@@ -71,7 +65,7 @@ background-image: url(../pic/gift-block/birthday.png);
         }
         .gifts-nav_block { height: 60%}
     }
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:600px) {
     .gifts_for_special_days {
         flex-direction: column;
     }

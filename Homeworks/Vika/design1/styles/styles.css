@@ -16,6 +16,7 @@
     
 body{
     font-family: "Gilroy"; 
+   
 }
 
 /*Text*/    
@@ -41,9 +42,7 @@ a {
     color: black;
 }
 p { font-size: 1rem;}
-li {
-    font-family: "Gilroy";
-}
+li { font-family: "Gilroy";}
 /*Buttons*/
 button{
     height:60px;
