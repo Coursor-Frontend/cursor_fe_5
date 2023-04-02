@@ -51,7 +51,7 @@
         text-align: justify;}
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:500px) {
     .left-pic {display: none;}
     .right{
         width: 100%;

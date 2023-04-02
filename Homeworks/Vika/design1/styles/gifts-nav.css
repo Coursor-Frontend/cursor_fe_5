@@ -20,12 +20,13 @@
     align-items: flex-start;
     position: relative;
 }
-.gifts-nav_block a:hover {
+.gifts-nav_block:hover {
     background-color: #FFFFFF;
     box-shadow: 2px 2px rgb(187, 183, 183);
 }
 .gifts-nav_block-link {
     align-self: flex-end;
+    margin: 15px;
 }
 .gifts-nav_block-title {
    margin: 0 auto;

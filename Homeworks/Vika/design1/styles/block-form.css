@@ -24,12 +24,13 @@
     border-radius: 5px;
     text-transform: uppercase;
     text-align: center;
+    line-height: 3;
 }
 .scroll-butn-black {
     background-color: black;
     color: white;
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:500px) {
     .form{
         flex-direction: column;
         height: auto;}
