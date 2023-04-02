@@ -8,10 +8,8 @@
 @import url(block-form.css);
 
 @font-face {
-    font-size: "Gilroy"
-    src:local("Gilroy") 
-    url("Gilroy-FREE\Gilroy-FREE\Gilroy-Light.otf") 
-    format(.otf);
+    font-size: "Gilroy";
+    src: url("Gilroy-FREE\Gilroy-FREE\Gilroy-Light.otf");
 }
     
 body{
@@ -20,7 +18,7 @@ body{
 }
 
 /*Text*/    
-html{  font: 18px;}
+html{ font: 18px;}
 h1 { font-size: 3rem;
     line-height: 3.8rem;
     font-family: 'Roboto', sans-serif;

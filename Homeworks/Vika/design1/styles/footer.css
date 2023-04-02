@@ -2,15 +2,13 @@
     display: flex;
     padding-top: 106px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     
 }
 li {
     display: inline-block;
     padding: 40px 20px;
     font-weight: bold;
-  
-
 }
 
 hr {

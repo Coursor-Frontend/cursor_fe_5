@@ -29,6 +29,7 @@
     background-image: url(../pic/Background-right.png);
     background-size:cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 50%;
     min-width: 720px;
     margin: 0 auto;
