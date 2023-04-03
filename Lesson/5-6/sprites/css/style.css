@@ -1,0 +1,24 @@
+.icon {
+    width: 60px;
+    background-image: url('../img/navigation-sprites.svg');
+    background-repeat: no-repeat;
+  }
+  
+.icon-1 {
+    height: 60px;
+    background-position: 0px 0px;
+}
+
+.icon-2 {
+    height: 60px;
+    background-position: 0px -60px;
+}
+
+.icon-1:hover {
+    background-position: -60px 0px;
+}
+
+.icon-2:hover {
+    background-position: -60px -60px;
+}
+  
