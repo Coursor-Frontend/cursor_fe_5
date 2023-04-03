@@ -1,0 +1,10 @@
+:root {
+    --main-bg-color: #FF0000;
+    --main-padding: 50px;
+}
+
+div {
+    background-color: var(--main-bg-color);
+    padding: var(--main-padding);
+}
+

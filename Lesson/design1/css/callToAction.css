@@ -1,0 +1,17 @@
+.call-to-action {
+    background-color: var(--active-color);
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.call-to-action > div {
+    width: 50%;
+}
+
+.call-to-action__text,
+.call-to-action__btn {
+    text-align: center;
+}

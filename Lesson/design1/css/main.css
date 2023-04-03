@@ -1,19 +1,17 @@
+.main { display: flex;}
+.main > div { width: 50%; }
 
-.hero-block {
-    display: flex;
+
+.main__text {
+    padding: 8%;
+    background-color: var(--light-grey);
 }
-.left {
-    width: 50%;
-    height: 50px;
-    height: 40vh;
-    background-color: lightcyan;
-} 
-
-.right {
-    width: 50%;
-    height: 40vh;
-    background-color: aquamarine;
-    background-image: url(.jpg), #F2F2F2;
+.main__img { 
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+ }
+
+
+.main__img_1 { background-image: url(../img/main2.jpeg); }
+.main__img_2 { background-image: url(../img/main1.jpeg); }

@@ -1,0 +1,9 @@
+:root {
+    --color-white: #fff;
+    --light-grey: #F1F1F2;
+    --color-black: #000;
+    --active-color: hwb(32 12% 3%);
+    --active-color-hover: hwb(32 2% 3%);
+
+    ----phone: 800px
+}

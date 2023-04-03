@@ -6,6 +6,6 @@
 @import "footer.css";
 @import "media.css";
 
-
-
-
+* {
+    border: 1px solid red;
+}

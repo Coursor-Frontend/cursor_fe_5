@@ -1,0 +1,26 @@
+.list1.item {
+    background-color: red;
+}
+
+.list1 .item {
+    background-color: red;
+}
+
+.list1, 
+.list2 { 
+    background-color: green;
+}
+
+.list1 > .item {
+
+}
+
+label + input {
+    background-color: red;
+}
+
+
+div ~ p {
+    background-color: yellow;
+}
+  

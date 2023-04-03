@@ -11,6 +11,12 @@
     font-size: "Gilroy";
     src: url("Gilroy-FREE\Gilroy-FREE\Gilroy-Light.otf");
 }
+
+/* zeka vikaDesign1  */
+/* @font-face {
+    font-family: "Gilroy";
+    src: url("../Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf");
+} */
     
 body{
     font-family: "Gilroy";
@@ -50,4 +56,9 @@ button{
     background-color: #FAFAFA;
     text-align: center;
     text-transform: uppercase;
+}
+
+
+* {
+    border: 1px solid red !important
 }

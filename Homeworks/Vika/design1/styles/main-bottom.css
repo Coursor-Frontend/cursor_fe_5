@@ -1,5 +1,6 @@
 .main-bottom{
     display: flex;
+    /* zeka для maint-top размер max-width: 1440px; */
     max-width: 1400px;
     min-width: 600px;
     max-height: 700px;
@@ -22,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    position: absolute;
+    position: absolute;                     /* zeka vika position is not needed */
     top: 20%;
     left: 60%;
    
