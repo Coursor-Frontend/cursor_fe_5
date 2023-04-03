@@ -1,5 +1,4 @@
 @import "resset.css";
-@import url("fonts/roboto/stylesheet.css")
 
 .header {
     display: flex;
@@ -20,7 +19,7 @@
 .main {
     display: flex;
 }
-.left text {
+.left  {
     width: 50%;
     height: 50px;
     height: 80vh;
@@ -35,6 +34,11 @@
     background-size: cover;
     background-position: center;
 }
- button {
+ .button  {
     border-color: gold;
+    height: 60px ;
+    width: 200px;
+}
+.foto {
+    background-image: url(logo2.jpg);
 }

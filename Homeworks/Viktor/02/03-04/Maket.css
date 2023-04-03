@@ -1,20 +1,249 @@
-.header{
-	display: flex;
-	justify-content:space-between;
-	margin-right: 80px;
-	align-items: center;
-  }
-  .content{
-	display: flex;
-	justify-content: right;
-  }
-  .header1{
-	margin-left: 80px;
-  }
-  .conteiner{
-	display: flex;
-	justify-content:space-between;
-	margin-right: 80px;
-	align-items: center;
-  }
-  
+.content {
+    width: 1440px;
+    height: 116px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.log {
+    margin-left: 80px;
+    width: 41px;
+    height: 39px;
+    margin-top: 39px;
+}
+.btn {
+    width: 150px;
+    height: 43px;
+    background-color: #FAFAFA;
+    color: #F7941E;
+    border-color: #F7941E;
+    border-radius: 5px;
+    margin-top: 36px;
+}
+.About {
+  margin-left: 31px;
+  text-decoration: none;
+} 
+.Services {
+    margin-left: 31px;
+    text-decoration: none;
+}
+.Blogs {
+    margin-left: 31px;
+    text-decoration: none;
+}
+.nav {
+    margin-top: 47px;
+    text-decoration: none;
+}
+.Home {
+    text-decoration: none;
+}
+.btn2 {
+    width:  200PX;
+    height: 60px;
+    border-color: #F7941E;
+    border-radius: 5PX;
+    color: white;
+    background-color: #F7941E;
+    margin: 52px 359px 135px 162px;
+}
+.foto-blok1 {
+    background-image: url(logo1.jpg);
+    width: 719px;
+    height: 700px;
+}
+.text1 {
+    width: 721px;
+    height: 700px;
+}
+.blok1 {
+    margin: 0px auto;
+    display: flex;
+    width: 1440px;
+    height: 700px;
+    background-color: #F1F1F2;
+}
+.text11 {
+    margin: 154px 126px 36px 162px ;
+}
+.text12 {
+    margin: 36px 137px 52px 162px;
+}
+.foto-blok2 {
+    background-image: url(logo2.jpg);
+    width: 733px ;
+    height: 600px;
+}
+.btn3 {
+    color: #F7941E;
+    border-color: #F7941E;
+    margin: 0 370px 104px 150px;
+    background-color: #F1F1F2;
+    border-radius: 5px;
+    width:200px ;
+    height: 60px;
+}
+.text21 {
+    padding: 164px 413px 23px 150px;
+}
+.blok2 {
+    display: flex;
+    margin: 0 auto;
+    width: 1440px;
+    height: 600px;
+    background-color: #F1F1F2;
+}
+.text22 {
+    padding: 23px 166px 35px 150px;
+}
+.blok3 {
+    /* display: flex; */
+    width:  1440px;
+    height: 820px;
+    margin: 0 auto;
+}
+.foto-blok3 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.foto-blok3 img {
+    width: 270px;
+    height: 270px;
+}
+.spisok {
+    display: flex;
+    justify-content: space-evenly;
+}
+.spisok p {
+    margin: 94px 174px 24px 0px;
+}
+.spisok div {
+    background-color: #FAFAFA;
+    width: 270px;
+    height: 166px;
+    
+}
+.text3 {
+    text-align: center;
+    height: 250px;
+    padding-top: 96px;
+}
+.text31 {
+    font-size: 20px;
+    margin-bottom: 64px;
+    margin-top: 31px;
+}
+.blok4 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 1440px;
+    height: 240px;
+    background-color: #F7941E;
+}
+.btn4 {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    color: #FFFFFF;
+    margin-top: 96px;
+    margin-right: 16px;
+    margin-left: 789px;
+}
+.btn5 {
+    margin-top: 96px;
+    margin-right: 40px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border-block-color:black ;
+    background-color: #F7941E;
+}
+.text41 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 81px;
+} 
+.btn42 {
+    padding-top:  0px;
+}
+.text5 {
+    text-align: center;
+    margin-top: 78px;
+}
+.text52 {
+    margin-top: 23px;
+}
+.foto-blok4 {
+    background-image: url(logo7.jpg);
+    width: 400px;
+    height: 370px;
+}
+.text6 {
+    width: 1140px;
+    height: 370px;
+    text-align: center;
+    background-color: black;
+}
+.text61 {
+    width: 84px;
+    height: 20px;
+    color: white;
+    margin-top: 63px;
+    margin-left: 88px;
+}
+.text62 {
+    width: 492px;
+    height: 125px ;
+    color: white;
+    padding: 78px;
+    padding:  0px;
+}
+.text63 {
+    color: white;
+    width: 90px;
+    height: 26px;
+    margin-top: 40px;
+    margin-left: 88px;
+}
+.blok5 {
+    display: flex;
+}
+.text-info {
+width: 570px;
+height: 290px;
+margin-top: 40px;
+margin-left: 45px;
+border: #FAFAFA;
+}
+
+.blok6 {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.text-farm {
+    width: 570px;
+    height: 290px;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: #FAFAFA
+ }
+ .nav1 {
+    
+    display: flex;
+    justify-content: center;
+ }
+ .artikl {
+    display: flex;
+    align-items: center;
+ }
+ .blok7 {
+    display: flex;
+    margin: 0 auto;
+    
+ }
