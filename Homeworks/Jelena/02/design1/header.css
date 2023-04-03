@@ -1,0 +1,85 @@
+html {
+    height: 1440px;
+    width: 16px;
+}
+.container {
+    max-width: 1200px;
+    min-width: 600px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    position: static;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    position: static;
+    top: 0px;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+}
+.navigation a {
+    margin: 0 10px;
+    color: #551A8B;
+    font-family: 'Courier New';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button {
+    position: static; 
+    font-size: 10px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    color: #F7941E;
+    border-color:#F7941E;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .navigation a {
+        margin: 20px 0;
+    }
+
+}
+
+.hero-block {
+    display: flex;
+    height: 1440 px;
+    width: 600px;
+    position: static;
+}
+.left {
+    width: 50%;
+    height: 50px;
+    height: 40vh;
+    background-color: #F1F1F2;
+    background-image: url(C:\Users\mrlem\OneDrive\Рабочийстол\frontend\cursor_fe_5\Homeworks\Jelena\02\design1\MediaBackground.png)
+} 
+
+.right {
+    width: 50%;
+    height: 40vh;
+    background-color:#F2F2F2;
+    background-image: url(C:\Users\mrlem\OneDrive\Рабочийстол\frontend\cursor_fe_5\Homeworks\Jelena\02\design1\Background.png);
+    background-size: 719px 700px;
+    background-position: center;
+}

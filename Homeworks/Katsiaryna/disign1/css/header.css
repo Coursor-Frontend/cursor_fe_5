@@ -1,0 +1,32 @@
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 35px 35px 80px;
+    background-color: var(--color-white);
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 31px;
+}
+
+.nav-link {
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--color);
+}
+
+.header-btn {
+    padding: 8px 15px;
+    margin-right: 40px;
+}
+
+.burger {
+    display: none;
+}

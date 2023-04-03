@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+ * ::before, * ::after {
+    box-sizing: inherit;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-reset {
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-descr {
+    text-align: center;
+}

@@ -1,0 +1,74 @@
+.blog{
+   padding: 40px;
+}
+.wedding-advert{
+    display: flex;
+    width: 1170px;
+    height: 370px;
+    margin: 0 auto;
+}
+ .wedding-advert-pic{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: stretch;
+
+    
+ }
+ .wedding-advert-text{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: stretch;
+    width: 770px;
+    background-color: black;
+    flex-direction: column;
+    padding-left: 90px;
+    color: white;
+ }
+ .slogan{
+    font-size: 48px;
+    line-height: 57px;
+    text-align: justify;
+    padding-right: 200pt;
+ }
+ .name{
+    margin-top: 65px;
+    font-size: 14px;
+    line-height: 20px;
+ }
+ .wedding-section-more-inf{
+    margin-bottom: 49px;
+    text-decoration: none;
+    color: white;
+ }
+ .article-title{
+   line-height: 34px;
+   font-weight: 700;
+ }
+ .blog-text{ 
+   text-align: center;
+   margin: 30px;         
+}
+
+ .article-preview{
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   height: 300px;
+   width: 70vw;
+   padding: 50px;
+ }
+ 
+ .article-container{
+   width: 50%;
+   padding: 50px;
+   text-align:left;
+
+ }
+ .article-text{
+   line-height: 25px;
+ }
+ .left-article{
+   box-shadow: 5px 6px #e9e5e6;
+   margin-right: 30px;
+ }

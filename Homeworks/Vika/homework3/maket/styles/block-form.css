@@ -1,0 +1,14 @@
+.form {
+    background-color: #F7941E;
+    height: 240px;
+    display: flex;
+    align-items: center;
+}
+.form-question {
+    font-weight: 700;
+    line-height:45px;
+    margin: 15px;
+}
+.form-titles{
+    position: relative;
+}

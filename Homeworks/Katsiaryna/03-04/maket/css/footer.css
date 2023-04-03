@@ -1,0 +1,21 @@
+/* footer */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-social {
+    display: flex;
+}

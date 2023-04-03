@@ -1,0 +1,25 @@
+.main-bottom{
+    display: flex;
+    max-width: 1400px;
+    min-width: 600px;
+    max-height: 700px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+ .right{
+    max-width: 50%;
+ }
+.left-pic {
+    background-image: url(../pic/Background-left.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    min-width: 720px; 
+}
+@media only screen and (max-width:720px) {
+    .left-pic {
+        background-image: url(../pic/background-leftX05.png);
+    }
+
+}

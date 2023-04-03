@@ -1,0 +1,64 @@
+@import url(resset.css);
+@import url(header.css);
+@import url(main-top.css);
+@import url(main-bottom.css);
+@import url(footer.css);
+@import url(wedding-block.css);
+@import url(gifts-nav.css);
+@import url(block-form.css);
+
+@font-face {
+    font-size: "Gilroy";
+    src: url("Gilroy-FREE\Gilroy-FREE\Gilroy-Light.otf");
+}
+
+/* zeka vikaDesign1  */
+/* @font-face {
+    font-family: "Gilroy";
+    src: url("../Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf");
+} */
+    
+body{
+    font-family: "Gilroy";
+   
+}
+
+/*Text*/    
+html{ font: 18px;}
+h1 { font-size: 3rem;
+    line-height: 3.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}  
+h2 {
+    font-size: 1.8rem;
+    line-height:2.5rem;
+    text-align: center;
+}
+h3 {font-size: 1.3rem;}
+h4 {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+a {
+    text-decoration:none;
+    color: black;
+}
+p { font-size: 1rem;}
+li { font-family: "Gilroy";}
+/*Buttons*/
+button{
+    height:60px;
+    width: 200px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+* {
+    border: 1px solid red !important
+}

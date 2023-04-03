@@ -1,0 +1,93 @@
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+ * ::before, * ::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Mulish" , sans-serif;
+    font-weight: 400;
+    min-width: 320px;
+    background-color: #E5E5E5;
+}
+
+:root {
+    --color-black: #000000;
+    --color-orange: #F7941E;
+    --color-white: #FAFAFA;
+    --color-grey: #F1F1F2;
+    --color-light-white: #FFFFFF;
+    --color-dark-grey: #231F20;;
+    --gap: 30px;
+ }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* padding: 0 15px; */
+}
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-reset {
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid var(--color-orange);
+    border-radius: 5px;
+    padding: 11px 20px;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: var(--color-orange);
+}
+
+.section-offset {
+    padding: 50px 0;
+    background-color: var(--color-light-white);
+}
+
+.section-title {
+    margin: 0;
+    margin-bottom: 23px;
+    font-size: 32px;
+    line-height: 140%;
+    color: var(--color-black);
+    text-align: center;
+}
+
+.section-descr {
+    margin: 0;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--color-black);
+    text-align: center;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}

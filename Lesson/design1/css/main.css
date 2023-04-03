@@ -1,0 +1,17 @@
+.main { display: flex;}
+.main > div { width: 50%; }
+
+
+.main__text {
+    padding: 8%;
+    background-color: var(--light-grey);
+}
+.main__img { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+
+.main__img_1 { background-image: url(../img/main2.jpeg); }
+.main__img_2 { background-image: url(../img/main1.jpeg); }

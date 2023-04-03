@@ -1,0 +1,97 @@
+.blog{
+   padding: 40px;
+}
+.wedding-advert{
+    display: flex;
+    width: 1170px;
+    height: 370px;
+    margin: 0 auto;
+}
+ .wedding-advert-pic{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: stretch;
+
+    
+ }
+ .wedding-advert-text{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: stretch;
+    width: 770px;
+    background-color: black;
+    flex-direction: column;
+    padding-left: 90px;
+    color: white;
+ }
+ .slogan{
+    font-size: 2.6rem;
+    line-height: 3rem;
+    text-align: justify;
+ }
+ .name{
+    margin-top: 65px;
+    font-size: 14px;
+    line-height: 20px;
+ }
+ .wedding-section-more-inf{
+    margin-bottom: 49px;
+    text-decoration: none;
+    color: white;
+ }
+ .article-title{
+   line-height: 34px;
+   font-weight: 700;
+ }
+ .blog-text{ 
+   text-align: center;
+   margin: 30px;         
+}
+
+ .article-preview {
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   height: 300px;
+   width: 70vw;
+   padding: 50px;
+ }
+ 
+ .article-container { 
+   width: 50%;
+   padding: 50px;
+   text-align:left;
+ }
+ .article-container:hover {box-shadow: 5px 6px #e9e5e6;}
+ .article-text{
+   line-height: 25px;
+ }
+ .left-article{ margin-right: 30px;}
+ 
+ @media only screen and (max-width:820px) {
+   .wedding-advert {width: auto;}
+   .wedding-advert-text{padding-left: 5px;}
+   .article-preview {flex-direction: column;}
+   .article-container {width: 100%;}
+}
+
+@media only screen and (max-width:500px) {
+   .wedding-advert {background-image: url(../pic/wedding.png);}
+      .wedding-advert-text {
+         background: rgba(13, 13, 13, 0.3);
+         justify-content: flex-end;
+      }
+      .slogan{ font-size: 2rem;}
+   .wedding-advert-pic{display:none;}
+
+   .article-preview {
+      flex-direction: column;
+      width: 100%;
+      padding: 5px;
+   }
+   .article-container{ 
+      width: 100%;
+      padding: 5px;
+   }
+}

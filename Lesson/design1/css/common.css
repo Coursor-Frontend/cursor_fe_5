@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../font/Gilroy-Light.otf"), url("../font/Gilroy-ExtraBold.otf")
+    ;
+}
+
+.container {
+    max-width: 1440px;
+    /* background-color: lightgrey; */
+    margin: 0 auto;
+}
+
+body {
+    font-family: Gilroy, sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+}
+h2 {
+    line-height: 0;
+    font-size: 32px;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+}

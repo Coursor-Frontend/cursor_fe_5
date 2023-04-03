@@ -1,0 +1,40 @@
+.nav-bottom{
+    display: flex;
+    padding-top: 106px;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+li {
+    display: inline-block;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+
+hr {
+    color: black;
+    width: 1000px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+ .icons img {
+    margin: 40px 15px;
+ }
+
+ .copyright {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin: 0 auto;
+ }
+.privacy{
+   padding-left: 14px;
+}
+@media only screen and (max-width:400px) { 
+   li {padding: 5px;}
+   .nav a {padding: 5px;}
+
+}
