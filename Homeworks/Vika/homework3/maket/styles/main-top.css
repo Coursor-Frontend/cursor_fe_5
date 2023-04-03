@@ -4,8 +4,7 @@
     min-width: 600px;
     max-height: 700px;
     min-height: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 .left { 
     width: 50%;
@@ -28,11 +27,15 @@
 
 .right-pic {
     background-image: url(../pic/Background-right.png);
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
-    width: 100%;
-    max-width: 50%;
-    
-    
-    
+    width: 50%;
+    min-width: 720px;
+    margin: 0 auto;
+}
+@media only screen and (max-width:720px) {
+    .right-pic {
+        background-image: url(../pic/background-rightX05.png);
+    }
+
 }

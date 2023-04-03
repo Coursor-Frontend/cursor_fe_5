@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <title> Flex-box</title>
         <link href="styles/styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shantell+Sans:ital,
+        wght@0,300;0,400;1,300&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -12,12 +16,12 @@
             <div class="top-logo">
                 <img src="pic/logo.png" alt="logo-top">
             </div>
-            <div class="top-nav">
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Services</a>
-                <a href="#">Blogs</a>
-            </div>
+                <ul class="top-nav">
+                    <li class="top-nav-elem"><a href="#">Home</a></li>
+                    <li class="top-nav-elem"><a href="#">About Us</a></li>
+                    <li class="top-nav-elem"><a href="#">Services</a></li>
+                    <li class="top-nav-elem"> <a href="#">Blogs</a></li>
+            </ul>
             <div class="top-btn">
                <a href="#">Gift Finder</a>
             </div>
@@ -26,6 +30,10 @@
        <main>
         <div class="main-top">
              <div class="left">
+                <!--Я этот блок просто падингами выровняла, а второй решила попробовать с помощью position, но не уверена,
+                     что это свойство так используют, хотя вы говорили, что и большие паддинги тоже не лучшая идея.
+                    Как правильнее выравнивать все содержимое блока к примеру по центу,
+                если свойстами флексбокса оно не совсем так как надо выравниваеться? -->
                 <h1 class="main-offer">Find a gift for your wife or girlfriend</h1>
 
                 <h4 class="main-question">Struggling to find a gift for your wife or girlfriend?
@@ -38,7 +46,7 @@
             <div class="left-pic">  </div>
             <div class="right">
                 <h2>How we work</h2>
-                <h3>We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</h3>
+                <p class="main-bottom-right-text">We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
                 <button class="bottom-btn"><a href="#">Learn More</a></button>
             </div>
         </div>
@@ -65,10 +73,12 @@
 
         </section>
             <div class="form">
-                <div class="form-titles">
+            <div class="form-titles">
                 <h2 class="form-question">Ready to get started?</h2>
-                <h2 class="form-title">Sign up or contact us</h2>
-            </div>
+                <h2 class="form-title">Sign up or contact us</h2></div>
+                <a href="#top" class="scroll-butn scroll-butn-black">Find gift now</a>
+                <a href="#" class="scroll-butn scroll-butn-orange">how it works</a> 
+            
             </div>
         </div>
         <section class="blog">
@@ -79,7 +89,7 @@
             <img src="pic/wedding.png">
             </div><div class="wedding-advert-text">
             <p class="name">Mr. John Doe</p>
-            <p class="slogan">The best way to wish your wife</p>
+            <p class="slogan">The best way to wish <br> your wife</p>
             <a href="#" class="wedding-section-more-inf">Read More</a></div>
         </div>
         <article class="blogs-article"> 
@@ -96,35 +106,27 @@
                      sed do eiusmod tempor incididunt ut labore et dolore....</p>
                      <a href="#" class="article-link">Read More</a>
                 </div>
-
             </div>
-
         </article>
        </section>
-        <div class=""></div>
         </main>
-        <footer class="nav-bottom">
-            <ul class="left-bot-nav">
+        <footer>
+            <ul class="nav-bottom">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-            </ul>
-            <div class="logo_bottom">
-                <img src="pic/logo_bottom.png" alt="bottom-logo">
-            </div>
-            <ul class="right-bot-nav">
+                <li><img src="pic/logo_bottom.png" alt="bottom-logo"></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Blog</a></li>
             </ul>
-        </footer>
         <hr>
-        <footer>
         <div class="icons">
-            <img src="icon/Facebook.svg" alt="facebook">
+            <img src="icon/Facebook.svg" alt="Facebook">
             <img src="icon/Twitter.svg" alt="twitter">
             <img src="icon/Instagram.svg" alt="IG">
             <img src="icon/Youtube.svg" alt="youtube">
             <img src="icon/Pinterest.svg" alt="pinterest">
             </div>
+
             <div class="copyright">
                 <p class="date">©2010-2020</p> 
                 <p class="privacy">Privacy — Terms</p>

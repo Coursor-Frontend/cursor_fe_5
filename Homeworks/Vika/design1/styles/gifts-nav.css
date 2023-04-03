@@ -1,0 +1,93 @@
+.gifts-nav {
+    text-align: center;
+    margin: 0 auto;
+}
+.gifts-nav_title {margin: 40px;}
+.gifts_for_special_days {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.gifts-nav_block {
+    background-repeat: no-repeat;
+    margin: 30px;
+    width: 270px;
+    height: 450px;
+    min-height: 370px;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.gifts-nav_block:hover {
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px rgb(187, 183, 183);
+}
+.gifts-nav_block-link {
+    align-self: flex-end;
+    margin: 15px;
+}
+.gifts-nav_block-title {
+   margin: 0 auto;
+    align-self: center;
+    position: absolute;
+    top: 64%;
+    left: 6%;   
+}
+.birthday {
+background-image: url(../pic/gift-block/birthday.png);
+
+}
+.anniversary {
+    background-image: url(../pic/gift-block/anniversary.png); 
+}
+.valentinse-day {
+    background-image: url(../pic/gift-block/valentines.png);
+}
+.christmas {
+    background-image: url(../pic/gift-block/christmas.png);
+}
+
+
+
+@media only screen and (max-width:1000px) {
+    .birthday {
+        background-image: url(../pic/gift-block/birthdayx05.png);
+        }
+        .anniversary {
+            background-image: url(../pic/gift-block/anniversaryX05.png); 
+        }
+        .valentinse-day {
+            background-image: url(../pic/gift-block/valentineX05.png);
+        }
+        .christmas {
+            background-image: url(../pic/gift-block/christmasX05.png);
+        }
+        .gifts-nav_block { height: 60%}
+    }
+@media only screen and (max-width:600px) {
+    .gifts_for_special_days {
+        flex-direction: column;
+    }
+    .gifts-nav_block-link,
+    .gifts-nav_block-title {
+        background-color: rgba(255, 255, 255, 0.5)
+    }
+
+        .birthday {
+        background-image: url(../pic/gift-block/birthday.png);
+        
+        }
+        .anniversary {
+            background-image: url(../pic/gift-block/anniversary.png); 
+        }
+        .valentinse-day {
+            background-image: url(../pic/gift-block/valentines.png);
+        }
+        .christmas {
+            background-image: url(../pic/gift-block/christmas.png);
+        }
+        
+
+}
