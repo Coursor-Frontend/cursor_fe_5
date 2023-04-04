@@ -15,3 +15,7 @@
 .call-to-action__btn {
     text-align: center;
 }
+
+.call-to-action {
+    background-color: var(--active-color);
+}

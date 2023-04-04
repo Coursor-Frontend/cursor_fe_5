@@ -1,0 +1,266 @@
+.wraper {
+    background-color: #FAFAFA;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px ;
+    height: 116px ;
+    margin: 0 auto;
+
+}
+.home1 {
+    text-decoration: none;
+}
+.aboutus1 {
+    padding-left: 31px;
+    text-decoration: none;
+}
+.services1 {
+    padding-left: 31px;
+    text-decoration: none;
+}
+.blogs1 {
+    padding-left: 31px;
+    text-decoration: none;
+}
+.home {
+    text-decoration: none;
+}
+.foto {
+    margin-left: 80px;
+}
+.bottom {
+    margin-right: 34px;
+}
+
+
+.blok1 {
+    display: flex;
+    width: 1440px;
+    height: 700px;
+    /* border: 1px solid rgb(16, 6, 106); */
+    margin: 0 auto;
+}
+.foto1 {
+    width: 719px;
+    height:700px ;
+    background-image: url(Background.jpg);
+}
+.text1 {
+    background-color: #F1F1F2;
+    width:721px ;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;  */
+    /* margin: 154px 162px 126px 340px; */
+}
+h1 {
+    padding: 154px 124px 36px 162px;
+}
+h4 {
+padding: 0 124px 52px 162px;
+}
+.bottom1 {
+    margin: 0 359px 135px 162px;
+    border-radius: 5px;
+    background-color: #F7941E;
+    margin-top: 52px;
+    width:200px ;
+    height:60px ;
+    
+}
+.blok2 {
+    background-color: #F1F1F2;
+    display: flex;
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.foto2 {
+    width: 721px;
+    height: 600px;
+    background-image: url(2.jpg);
+}
+.text2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F1F2;
+    width: 719px ;
+    height: 600px;
+}
+.bottom2 {
+    color: #F7941E;
+    border-color: #F7941E;
+    margin: 0 370px 104px 150px;
+    background-color: #F1F1F2;
+    border-radius: 5px;
+    width:200px ;
+    height: 60px;
+}
+h2 {
+    padding: 164px 375px 23px 150px;
+}
+h4 {
+    text-align: left;
+    padding: 0 128px 35px 150px;
+}
+.blok3 {
+    background-color:#FFFFFF ;
+    width: 1440px;
+    height: 820px;
+    margin: 0 auto;
+}
+.text3 {
+    text-align: center;
+    padding: 96px 509px 23px;
+}
+.text4 {
+    text-align: center;
+    padding: 0 493px 64px;
+}
+.foto3 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.spisok {
+    display: flex;
+    justify-content:space-evenly;
+} 
+.spisok div {
+    background-color: #FAFAFA;
+    width: 270px;
+    height: 166px;
+    
+}
+
+.foto3 img {
+    width: 270px;
+    height: 270px;
+}
+.spisok p {
+    margin: 94px 174px 24px 0px;
+}
+.blok4 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 1440px;
+    height: 240px;
+    background-color: #F7941E;
+}
+.texto {
+font-size: 30px;
+text-align: center;
+padding-top: 81px;
+}
+
+.bottom4 {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    color: #FFFFFF;
+}
+.bottom5 {
+    margin-top: 96px;
+    margin-left: 16px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border-block-color:black ;
+    background-color: #F7941E;
+}
+.blok5 {
+    margin: 0 auto;
+    width: 1440px;
+    height: 1026px;
+    background-color: #FFFFFF;
+}
+.text7 {
+    text-align: center;
+    font-size: 20px ;
+    padding: 88px 509px 23px 509px; 
+}
+.text8 {
+    text-align: center;
+    font-size: 20px;
+    padding: 0 466px 71px 467px;
+}
+.foto4 {
+    background-image: url(Media.jpg);
+    width: 400px;
+    height: 370px;
+}
+.fototext {
+    margin: 71px 135px 40px 135px;
+    display: flex;
+    width: 1170px;
+    height: 370px;
+
+}
+.text111 {
+    color:#FFFFFF;
+    background-color: #231F20;
+    width: 770px;
+    height: 370px ;
+}
+.texto1 {
+    display: flex;
+    margin: 0 auto;
+
+}
+.text9 {
+    margin: 40px 30px 80px 135px;
+    width:570px ;
+    height:290px ;
+
+}
+.text10 {
+    margin: 40px 135px 80px 0;
+width:570px ;
+height:290px ;
+}
+.footer {
+    width:1440px ;
+    height:410px ;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 115px;
+    padding-bottom: 53px;
+}
+.border {
+    outline:1px solid black;
+    width: 1000px;
+    margin-left: 220px;
+}
+.aboutus2 {
+    margin-left: 81px;
+}
+.final {
+    margin-left: 81px;
+}
+.services2 {
+    margin-left: 81px;
+}
+.blogs2 {
+    margin-left: 81px;
+}
+.nav2 {
+    margin-top: 55px;
+    text-align: center;
+
+}
+
+* {
+    border: 1px solid red !important
+}
