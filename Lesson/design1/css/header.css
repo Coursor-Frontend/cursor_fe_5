@@ -6,15 +6,18 @@
     background-color: var(--color-white);
 }
 
+.header__logo {}
 .header__nav {
     display: flex;
 }
 
-.header__nav a {
+.header__nav > a {
     margin: 0 30px;
     text-decoration: none;
     color: var(--colro-black);
 }
+
+.header__button {}
 
 @media only screen and (max-width: 800px) {
     .header,
