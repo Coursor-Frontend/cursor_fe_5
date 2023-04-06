@@ -1,24 +1,55 @@
-button {
-    padding: 2.5rem;
-    border: 0;
-    border-radius: 2.5rem;
-    font-size: 2.5rem;
-    background-color: #bada55;
-    cursor: pointer;
-    transition: background 0.3s, color 0.3s;
-  }
-  
-button:active {
-    color: white;   
-    background-color: purple;
-}
+/* :link            ссылки которые ещё не открывались */
+/* :visited         ссылки на которые мы уже нажимали */
+/* :hover           при наведении */
+/* :active          актиывный элемент */
 
-button:hover  {
-    color: white;   
-    background-color: purple;
-}
+/* Псевдоклассы группы child */
+/* :first-child         */
+/* last-child           */
+/* :nth-child(2)        */
+/* :nth-last-child(2)   */
+/* :nth-child(odd)      */
+/* :nth-child(even)     */
+/* :nth-child(3n)       */
+/* nth-child(6n+10)     */
+/* nth-last-child(6n+10)     */
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {}
-:is(h1, h2, h3, h4, h5, h6) a {}
-  
-   
+/* Псевдоклассы группы type */
+/* :first-of-type(3) */
+/* :nth-of-type(2n) */
+/* :nth-of-type(2n+1) */
+/* li:nth-of-type(5),
+.list__item:nth-of-type(3) */
+
+
+/* :focus               tab */
+/* :not                 не */
+/* li:not(:last-child) {
+    margin-bottom: 1em;
+  } */
+
+
+/* :checked
+:disabled, :enabled */
+
+
+/* :empty               пустые элементы */
+
+/* :where() */
+/* header a,
+main a,
+footer a {
+  color: blue;
+} */
+
+/* :where(header, main, footer) a {
+    color: blue;
+  } */
+
+
+/* :required
+:optional
+:invalid, 
+:valid
+:lang
+:root */
