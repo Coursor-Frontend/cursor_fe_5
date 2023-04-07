@@ -38,9 +38,9 @@ body {
   .sw-resize       { cursor: sw-resize; }
   .nesw-resize     { cursor: nesw-resize; }
   .nwse-resize     { cursor: nwse-resize; }
-  .zoom-in     { cursor: zoom-in; }
-  .zoom-out    { cursor: zoom-out; }
-  /* .custom      { cursor: url("../css/cursor.png"), auto } */
+  .zoom-in         { cursor: zoom-in; }
+  .zoom-out        { cursor: zoom-out; }
+  .custom         { cursor: url("../css/cursor.png"), auto }
   
   h1 {
     color: #f06d06;

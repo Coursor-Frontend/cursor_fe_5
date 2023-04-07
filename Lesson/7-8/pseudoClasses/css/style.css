@@ -1,3 +1,22 @@
+
+button:active {
+  background-color: blue;
+  padding: 50px;
+  cursor: pointer;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+
+/* .test > :nth-of-type(2n) {
+  background-color: red;
+} */
 /* :link            ссылки которые ещё не открывались */
 /* :visited         ссылки на которые мы уже нажимали */
 /* :hover           при наведении */
@@ -21,6 +40,24 @@
 /* li:nth-of-type(5),
 .list__item:nth-of-type(3) */
 
+.test2:focus {
+  border: solid 10px red;
+  background-color: red;
+}
+
+li:empty {
+    display: none;
+  }
+
+.checkbox:checked {
+  color: red;
+  background-color: red;
+}
+
+.checkbox:checked {
+  color: red;
+  background-color: red;
+}
 
 /* :focus               tab */
 /* :not                 не */
@@ -53,3 +90,13 @@ footer a {
 :valid
 :lang
 :root */
+
+header a,
+main a,
+footer a {
+  color: blue;
+} 
+
+:where(header, main, footer) a {
+  color: blue;
+}

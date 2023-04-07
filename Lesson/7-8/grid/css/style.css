@@ -27,7 +27,7 @@
 /* грид динамический */
 .grid-container_dynamic {
     grid-template-columns: 40px auto 40%;
-    grid-template-rows: 250px 5vw 15rem;;
+    grid-template-rows: 250px 5vw 15rem;
 }
 
 /* грид фиксированный */
@@ -38,7 +38,7 @@
 
 /* грид одинаковый */
 .grid-container_equal {
-    grid-template-columns: repeat(3, 25%);
+    grid-template-columns: repeat(3, 100%);
 }
 
 /* грид от размера родителя */
@@ -63,7 +63,16 @@
 
 .item-line1 {
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item-line2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 
 
@@ -71,13 +80,13 @@
 /* грид с шаблоном */
 .grid-container_template {
     display: grid;
-    grid-template-columns: 1fr 200px 1fr;
+    grid-template-columns: 1fr 200px 1fr 50px;
     grid-template-rows: repeat(4, 150px);
     grid-template-areas:
-    "header header header"
-    "content content menu"
-    "content content ."
-    "footer footer footer";
+    "header     header      header ."
+    "content    menu        ."      
+    "content    menu        ."
+    "footer     footer      footer";
 }
   
 .item1 {
