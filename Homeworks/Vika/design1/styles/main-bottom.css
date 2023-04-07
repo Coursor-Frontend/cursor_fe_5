@@ -1,6 +1,6 @@
 .main-bottom{
     display: flex;
-    max-width: 1400px;
+    max-width: 1440px;
     min-width: 600px;
     max-height: 700px;
     min-height: 500px;
@@ -24,7 +24,7 @@
     align-items: baseline;
     position: absolute;
     top: 20%;
-    left: 60%;
+    right: 0%;
    
  }
  .bottom-btn {
