@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    margin: 50px;
+    text-align: center;
+}
+
+.flex-container {
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 183, 173);
+    border: solid;
+    border-color: rgb(0, 0, 0) 1px;
+    height: 300px;
+}
+
+.gradient {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 100px;
+    background-image: radial-gradient(at top,
+        yellow 20%,
+        green);
+}
+img {
+    border: solid;
+    border-color: rgb(0, 0, 0) 1px;
+}
+
+#sprites {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../05-06/icons1.png) 0 0;
+    }
+
+a {
+        background-image: url(../05-06/icons1.png);
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 30px;
+        margin: 10px;
+        
+      }
+
+a.home { background-position: left top; }
+a.phone { background-position: -35px top; }
+a.iphone { background-position: -72px top; }
+a.mail { background-position: -109px top; }
+a.net { background-position: -146px top; }
+a.fax { background-position: -183px top; }
+a.dog { background-position: -220px top; }
+a.local { background-position: -257px top; }
+
+a:hover {
+    background-position-y: bottom;
+    }

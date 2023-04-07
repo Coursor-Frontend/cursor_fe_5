@@ -1,0 +1,150 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+body {
+font-family:'Courier New';
+}
+
+.container {
+  flex-direction: row;
+  text-align: center;
+  justify-items: center;  
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(210, 210, 210);
+}
+
+.container1 {
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
+    align-content: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-content: 50%;
+    width: 100%;
+}
+
+.container1 > img {  
+    max-height: 500px;
+    width: 100%;
+    text-align: center;
+} 
+
+.container > img {  
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.flex-container > img {  
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container > div {
+  font-size: 30px;
+}
+
+.container2 > div {
+  display: flex;
+  background-color: rgb(244, 103, 9);
+  font-size: 20px;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-size: x-large;
+}
+
+.item1 {
+  flex: 300px;
+  width: 300px;
+  align-content: space-around;
+  align-content: center;
+}
+
+.item2 {
+  flex: none;
+  width: max-content;
+}
+
+.card3 {
+  height: 400px;
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+  object-position: center;
+  box-shadow: 5px 5px gray;
+}
+
+.flex-container4 .card3 {
+    background-color: rgb(244, 239, 208);
+}
+
+.flex-container4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+  }
+
+.item4 {
+  background-color: rgb(239, 114, 4);
+  flex: 300px;
+  width: 3000px;
+  text-align: center;
+}
+
+.flex-container .item4 {
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(249, 94, 38);
+    max-height: fit-content;
+    height: 150px;
+
+}
+
+.flex-container6 {
+    background-color: rgb(239, 114, 4);
+    display: flex;    
+    height: 150px;
+    align-items: center;
+}
+
+.flex-container5 {
+    flex-direction: row;
+    display: flex;
+
+}
+
+.flex-container5 > div {
+    background-color: rgb(216, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px rgb(214, 214, 214);
+}

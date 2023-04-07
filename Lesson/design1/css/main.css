@@ -13,7 +13,7 @@
     width: 50%;
     height: 40vh;
     background-color: aquamarine;
-    background-image: url(../img/main1.jpeg);
+    background-image: url(.jpg), #F2F2F2;
     background-size: cover;
     background-position: center;
 }

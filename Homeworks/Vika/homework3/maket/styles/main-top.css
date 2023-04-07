@@ -26,7 +26,6 @@
 }
 
 .right-pic {
-    display: block;
     background-image: url(../pic/Background-right.png);
     background-size:cover;
     background-repeat: no-repeat;

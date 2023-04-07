@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
  .right{
-    width: 50%;
+    max-width: 50%;
  }
 .left-pic {
     background-image: url(../pic/Background-left.png);
