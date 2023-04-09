@@ -1,26 +1,46 @@
 .list1.item {
+    background-color: rgb(85, 255, 0);
+}
+
+
+.header h1 {
+    background-color: rgb(39, 110, 250);
+}
+
+.header > h1 {
+    background-color: rgb(31, 169, 21);
+}
+
+
+
+
+
+/* .header > h1 {
+    background-color: pink;
+} */
+
+.list1 .item  .test1  .test2 {
     background-color: red;
 }
 
-.list1 .item {
-    background-color: red;
-}
-
-.list1, 
+.list1,
 .list2 { 
     background-color: green;
 }
 
-.list1 > .item {
+/* .header > h1 {
+    background-color: pink;
+} */
 
+.main > h1 {
+    
 }
 
-label + input {
-    background-color: red;
+.list1 + .list2 {
+    background-color: aqua;
 }
 
-
-div ~ p {
+.list1 ~ .list2 {
     background-color: yellow;
 }
   

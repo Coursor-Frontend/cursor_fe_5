@@ -1,0 +1,125 @@
+/* body * + * { margin-top: 1.5em;} */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* ---------------------------
+             GRIDS
+------------------------------ */
+.grid-container {
+    display: grid;
+    background-color: grey;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-container > div {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.grid-item:nth-child(2n + 2) {
+    background-color: red;
+}
+
+/* грид динамический */
+.grid-container_dynamic {
+    grid-template-columns: 40px auto 40%;
+    grid-template-rows: 250px 5vw 15rem;
+}
+
+/* грид фиксированный */
+.grid-container_static {
+    grid-template-columns: [start] 140px [line2] 250px [line3] 40px [end];
+    grid-template-rows: [row1-start] 25rem [row1-end] 10vh [last];
+}
+
+/* грид одинаковый */
+.grid-container_equal {
+    grid-template-columns: repeat(3, 100%);
+}
+
+/* грид от размера родителя */
+.grid-container_parent-equal {
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 50px 1fr; */
+}
+
+/* грид с отступами */
+.grid-container_gap {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+/* грид с начальными и конечными точками */
+.grid-container_lines {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-template-rows: repeat(3, 150px);
+}
+
+.item-line1 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item-line2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+
+
+/* грид с шаблоном */
+.grid-container_template {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr 50px;
+    grid-template-rows: repeat(4, 150px);
+    grid-template-areas:
+    "header     header      header ."
+    "content    menu        ."      
+    "content    menu        ."
+    "footer     footer      footer";
+}
+  
+.item1 {
+    grid-area: header;
+    background-color: purple;
+}
+  
+.item2 {
+    grid-area: content;
+    background-color: rgb(157, 255, 0);
+}
+  
+.item3 {
+    grid-area: menu;
+    background-color: pink;
+}
+  
+.item4 {
+    grid-area: footer;
+    background-color: #bada55;
+}
+
+
+.grid-container_inner {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-template-rows: repeat(3, 150px);
+    gap: 20px;
+  
+    justify-items: start;
+}
+
+/* .grid-item {
+    min-width: 100px;
+    background-color: red;
+} */
