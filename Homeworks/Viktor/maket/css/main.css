@@ -1,45 +1,3 @@
-.content {
-    width: 1440px;
-    height: 116px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-.log {
-    margin-left: 80px;
-    width: 41px;
-    height: 39px;
-    margin-top: 39px;
-}
-.btn {
-    width: 150px;
-    height: 43px;
-    background-color: #FAFAFA;
-    color: #F7941E;
-    border-color: #F7941E;
-    border-radius: 5px;
-    margin-top: 36px;
-}
-.About {
-  margin-left: 31px;
-  text-decoration: none;
-} 
-.Services {
-    margin-left: 31px;
-    text-decoration: none;
-}
-.Blogs {
-    margin-left: 31px;
-    text-decoration: none;
-}
-.nav {
-    margin-top: 47px;
-    text-decoration: none;
-}
-.Home {
-    text-decoration: none;
-}
 .btn2 {
     width:  200PX;
     height: 60px;
@@ -50,9 +8,10 @@
     margin: 52px 359px 135px 162px;
 }
 .foto-blok1 {
-    background-image: url(logo1.jpg);
-    width: 719px;
-    height: 700px;
+    background-image: url(../image/logo1.jpg);
+    max-width: 100%;
+    height: 700px; 
+    width: 50%;
 }
 .text1 {
     width: 721px;
@@ -61,7 +20,7 @@
 .blok1 {
     margin: 0px auto;
     display: flex;
-    width: 1440px;
+    max-width: 1440px;
     height: 700px;
     background-color: #F1F1F2;
 }
@@ -72,8 +31,9 @@
     margin: 36px 137px 52px 162px;
 }
 .foto-blok2 {
-    background-image: url(logo2.jpg);
-    width: 733px ;
+    background-image: url(../image/logo2.jpg);
+    max-width: 100% ;
+    width: 50%;
     height: 600px;
 }
 .btn3 {
@@ -91,7 +51,7 @@
 .blok2 {
     display: flex;
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1440px;
     height: 600px;
     background-color: #F1F1F2;
 }
@@ -100,7 +60,7 @@
 }
 .blok3 {
     /* display: flex; */
-    width:  1440px;
+    max-width:  1440px;
     height: 820px;
     margin: 0 auto;
 }
@@ -140,7 +100,7 @@
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1440px;
     height: 240px;
     background-color: #F7941E;
 }
@@ -152,7 +112,7 @@
     color: #FFFFFF;
     margin-top: 96px;
     margin-right: 16px;
-    margin-left: 789px;
+    margin-left: 242px;
 }
 .btn5 {
     margin-top: 96px;
@@ -163,11 +123,17 @@
     border-block-color:black ;
     background-color: #F7941E;
 }
-.text41 {
+.text4 {
+    width: 325px;
+    height: 90px;
+    padding-left: 235px;
+    margin-top: 70px;
+}
+/* .text41 { 
     font-size: 30px;
     text-align: center;
     padding-top: 81px;
-} 
+} */
 .btn42 {
     padding-top:  0px;
 }
@@ -179,12 +145,12 @@
     margin-top: 23px;
 }
 .foto-blok4 {
-    background-image: url(logo7.jpg);
+    background-image: url(../image/logo7.jpg);
     width: 400px;
     height: 370px;
 }
 .text6 {
-    width: 1140px;
+    width: 870px;
     height: 370px;
     text-align: center;
     background-color: black;
@@ -211,39 +177,28 @@
     margin-left: 88px;
 }
 .blok5 {
+    max-width: 1170px;
     display: flex;
+    margin: 0 auto;
 }
+
 .text-info {
 width: 570px;
 height: 290px;
 margin-top: 40px;
 margin-left: 45px;
-border: #FAFAFA;
+background-color:  #FAFAFA;
 }
 
 .blok6 {
     display: flex;
-    justify-content: space-between;
-   
+    justify-content: center;
+    margin-bottom: 80px;
 }
 .text-farm {
     width: 570px;
     height: 290px;
     margin-top: 40px;
     margin-left: 30px;
-    background-color: #FAFAFA
- }
- .nav1 {
-    
-    display: flex;
-    justify-content: center;
- }
- .artikl {
-    display: flex;
-    align-items: center;
- }
- .blok7 {
-    display: flex;
-    margin: 0 auto;
-    
- }
+    background-color: #FAFAFA;
+}
