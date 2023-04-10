@@ -1,3 +1,4 @@
+@import{}
 .wraper {
     background-color: #FAFAFA;
     /* border: 1px solid black; */
@@ -45,7 +46,7 @@
 .foto1 {
     width: 719px;
     height:700px ;
-    background-image: url(Background.jpg);
+    background-image: url(image/Background.jpg);
 }
 .text1 {
     background-color: #F1F1F2;
@@ -82,7 +83,7 @@ padding: 0 124px 52px 162px;
 .foto2 {
     width: 721px;
     height: 600px;
-    background-image: url(2.jpg);
+    background-image: url(image/2.jpg);
 }
 .text2 {
     text-align: center;
@@ -192,7 +193,7 @@ padding-top: 81px;
     padding: 0 466px 71px 467px;
 }
 .foto4 {
-    background-image: url(Media.jpg);
+    background-image: url(image/Media.jpg);
     width: 400px;
     height: 370px;
 }
