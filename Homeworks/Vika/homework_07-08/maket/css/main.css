@@ -47,6 +47,7 @@
 @media screen and (min-width:1400px) {
     .main-info__block {
         min-width: 1160px;
+        max-width: 1440px;
         min-height: 324px;
         margin: 80px 10px;
     }

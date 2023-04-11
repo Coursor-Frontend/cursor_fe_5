@@ -1,0 +1,24 @@
+hr {
+    width: 40px;
+    color: #FFFFFF;
+}
+.header-nav__icon {
+    position: relative;
+    display: inline-block;
+}
+.header-nav__list_hidden {
+    display: none;
+    position: absolute;
+    right: 2px;
+}
+.header-nav__list_hidden li{
+   padding: 5px; 
+}
+.header-nav__icon:hover .header-nav__list_hidden 
+{display: block;}
+
+.top-header {
+    display: flex;
+    justify-content: space-around;
+}
+header { margin-top: 89px;}
