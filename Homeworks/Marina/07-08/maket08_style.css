@@ -1,0 +1,82 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    background-image: url("Elementvector.png");
+    max-height: min-content;
+    background-color: rgb(45, 45, 154);
+    color: white;
+    justify-content: center;
+    grid-template-columns: [start]50%[line1]auto[end];
+    margin-inline: 10%;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    color: rgb(249, 241, 87);
+    align-content: flex-start;
+    align-items: center;
+    background-color: rgb(45, 45, 154);
+    justify-content: space-between;
+    margin-inline: 10%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header_menu {
+    color-scheme: rgb(249, 241, 87);
+    background-color: rgb(45, 45, 154);
+}
+
+.button_login {
+    border-radius: 10%;
+    background-color: rgb(255, 221, 0);
+    color: rgb(0, 6, 194);
+    padding: 5px;
+    margin: 10px;
+}
+
+.button_try {
+    border-radius: 10%;
+    background-color: rgb(86, 150, 210);
+    color: rgb(214, 238, 98);
+    padding: 5px;
+    margin: 10px;
+}
+
+.grid-item1 {
+    margin: 10%;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.grid-item2 {
+    margin: 10%;
+    justify-items: start;
+    align-items: center;
+    justify-content: start;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.grid-container1 {
+    display: grid;
+    max-height: min-content;
+    grid-template-columns: [start]50%[line1]auto[end];
+    margin-inline: 10%;
+    align-items: center;
+    justify-content: center;
+}
