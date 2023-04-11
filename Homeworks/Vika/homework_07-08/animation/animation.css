@@ -39,5 +39,5 @@
 @keyframes size-change {
     from {padding: 0;
     }
-    to {padding: 1px;}
+    to {scale: 2;}
 }
