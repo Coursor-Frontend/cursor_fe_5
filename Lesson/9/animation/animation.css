@@ -1,0 +1,22 @@
+/* data-animation="slideInUp" */
+/* data-animation-delay=".3s" */
+
+@keyframes slideInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(25%);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+[data-animation] {
+   opacity: 0;
+   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   animation-fill-mode: both;
+   animation-duration: 300ms;
+   will-change: transform, opacity;
+}
+
+.slideInUp      {animation-name: slideInUp;}
