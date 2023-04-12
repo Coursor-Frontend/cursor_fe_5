@@ -1,0 +1,23 @@
+.hero {
+    background-color: var(--catalina-color);
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__content {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.hero__image {
+    width: 286px;
+    height: 191px;
+    background-color: var(--french-color);
+}
+
+
+
