@@ -1,0 +1,114 @@
+body {
+    background-color: #4C3D74;
+}
+.main {
+    margin-bottom: 90px;
+}
+.main h1 {
+    margin-top: 100px;
+    margin-left: 140px;
+    vertical-align: middle;
+    font-size: 66px;
+    font-family: Futura, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    margin-bottom: 0;
+}
+.main p {
+    margin-left: 140px;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: Futura, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.main img {
+    margin-left: 0px;
+    margin-right: 400px;
+    float: right;
+    vertical-align: middle;
+    width: 350px;
+    height: 350px;
+}
+.main h2 {
+    margin-bottom: 0px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 140px;
+    vertical-align: middle;
+    font-size: 50px;
+    font-family: Futura, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    margin-bottom: 0;
+}
+
+
+.bordered-box {
+    margin-left: 140px;
+    margin-right: 140px;
+    border: 5px solid #A387C4;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 66px;
+}
+.bordered-box p {
+    vertical-align: middle;
+    display: inline-block;
+    font-family: Futura, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.bordered-box h2 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 50px;
+    font-family: Futura, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    margin-bottom: 0;
+}
+.bordered-box h3 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    font-family: Futura, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    margin-bottom: 0;
+}
+.bordered-box-footer {
+    top: 30px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.bordered-box-footer img {
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+.bordered-box-footer button {
+    padding: 10px 20px;
+    background-color: #A387C4;
+}
+
+@media (max-width: 1440px) {
+    .main {
+        position: relative;
+    }
+    .main h1 {
+        font-size: 40px;
+    }
+}
