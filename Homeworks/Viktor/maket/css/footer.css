@@ -1,0 +1,39 @@
+.nav1 {
+    
+    display: flex;
+    justify-content: space-around;
+    padding-left: 406px;
+}
+.artikl {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.blok7 {
+    display: flex;
+    margin: 0 auto; 
+    min-width: 1440px;
+}
+.hr {
+    color: black ;
+    width:   1000px;
+    padding-left: 220px;
+}
+.footer {
+    margin: 0 auto;
+}
+.vektor-1 {
+    padding-left: 25px;
+}
+.vektor-5 {
+    padding-left: 352px;
+}
+.vektor-2 {
+    padding-left: 25px;
+}
+.vektor-3 {
+    padding-left: 25px;
+}
+.vektor-4 {
+    padding-left: 25px;
+}

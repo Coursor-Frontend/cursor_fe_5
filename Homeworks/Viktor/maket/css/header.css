@@ -1,0 +1,42 @@
+.content {
+    max-width: 1440px;
+    height: 116px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.log {
+    margin-left: 80px;
+    width: 41px;
+    height: 39px;
+    margin-top: 39px;
+}
+.btn {
+    width: 150px;
+    height: 43px;
+    background-color: #FAFAFA;
+    color: #F7941E;
+    border-color: #F7941E;
+    border-radius: 5px;
+    margin-top: 36px;
+}
+.about {
+    margin-left: 31px;
+    text-decoration: none;
+} 
+.services {
+    margin-left: 31px;
+    text-decoration: none;
+}
+.blogs {
+    margin-left: 31px;
+    text-decoration: none;
+}
+.nav {
+    margin-top: 47px;
+    text-decoration: none;
+}
+.home {
+    text-decoration: none;
+}

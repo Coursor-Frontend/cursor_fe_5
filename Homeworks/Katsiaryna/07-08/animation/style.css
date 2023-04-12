@@ -1,0 +1,47 @@
+.animation {
+    height: 95vh;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.animation__loader {
+    background-color: lightgrey;
+    width: 25px;
+    height: 25px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.animation__loader_1 {
+    /* animation-name: grey-circle;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s; */
+    /* animation-fill-mode: forwards; */
+    animation: change-size 0.5s ease-in-out infinite alternate, change-color 0.5s ease-in-out infinite alternate
+}
+.animation__loader_2 {
+    animation: change-size 0.5s ease-in-out infinite .2s alternate, change-color 0.5s ease-in-out infinite .2s alternate;
+}
+.animation__loader_3 {
+    animation: change-size 0.5s ease-in-out infinite .4s alternate, change-color 0.5s ease-in-out infinite .4s alternate;
+}
+
+@keyframes change-size{
+    100% {
+        /* width: 45px;
+        height: 45px; */
+        transform: scale(1.5);
+    }
+}
+@keyframes change-color {
+    100% {
+        background-color: grey;
+    }
+}
