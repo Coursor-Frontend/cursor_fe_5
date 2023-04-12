@@ -31,9 +31,10 @@
 @keyframes color-change {
     from {background-color: lightgrey;}
 
-    100%  {
+    50%  {
         background-color: hwb(0 45% 53%);
     }
+    100% {background-color: lightgrey;}
 }
 
 @keyframes size-change {
