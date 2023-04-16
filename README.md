@@ -10,7 +10,7 @@ https://github.com8/Coursor-Frontend/cursor_fe_5
 [01-02](https://github.com/Coursor-Frontend/cursor_fe_5/blob/main/Homeworks/Homework/01-02/HOMEWORK.md)  
 [03-04](https://github.com/Coursor-Frontend/cursor_fe_5/blob/main/Homeworks/Homework/03-04/HOMEWORK.md)  
 [05-06](https://github.com/Coursor-Frontend/cursor_fe_5/blob/main/Homeworks/Homework/05-06/HOMEWORK.md)  
-[07-08]()  
+[07-08](https://github.com/Coursor-Frontend/cursor_fe_5/blob/main/Homeworks/Homework/07-08/HOMEWORK.md)  
 [09-10]()  
 [11-12]()  
 

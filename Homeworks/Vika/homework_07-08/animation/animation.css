@@ -40,6 +40,5 @@
 @keyframes size-change {
     from {padding: 0;
     }
-    50% {padding: 1px;}
-    to {padding: 0px;}
+    to {scale: 2;}
 }

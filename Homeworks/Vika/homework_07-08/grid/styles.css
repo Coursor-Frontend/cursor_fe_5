@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    min-width: 1500px;
+    max-width: 1500px;
     grid-template-columns: 240px 240px 240px 240px 240px 240px;
     grid-template-rows: repeat(12, auto);
     grid-gap: 20px;
