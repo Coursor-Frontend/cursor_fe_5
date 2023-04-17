@@ -12,6 +12,7 @@ body {
     justify-content: space-evenly;
     grid-template-columns: [start]50%[line1]auto[end];
     margin-inline: 10%;
+    border-radius: 10%;
 }
 
 .header {
@@ -22,6 +23,7 @@ body {
     background-color: rgb(45, 45, 154);
     justify-content: space-between;
     margin-inline: 10%;
+    border-radius: 10%;
 }
 
 .logo {
@@ -30,6 +32,10 @@ body {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+}
+
+.logo > img {
+    background-color: rgb(55, 55, 176);
 }
 
 .header_menu {
@@ -51,6 +57,12 @@ body {
     color: rgb(214, 238, 98);
     padding: 5px;
     margin: 10px;
+}
+
+.button_try1 {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10%;
 }
 
 .grid-item1 {
@@ -79,6 +91,8 @@ body {
     margin-inline: 10%;
     align-items: center;
     justify-content: center;
+    border: 1px solid rgb(177, 229, 246);
+    border-radius: 10%;
 }
 
 .flex-container-price {
@@ -87,6 +101,8 @@ body {
     justify-content: space-between;
     align-items: start;
     margin-inline: 10%;
+    border: 1px solid rgb(177, 229, 246);
+    border-radius: 10%;
 }
 
 .flex-item1 {
@@ -107,11 +123,16 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-inline: 10%;
+    margin: 5%;
+    border-radius: 10%;
 }
 
 .flex-container-sponsors > img {
     height: 40px;
+    filter: drop-shadow(2px 1px black);
+    filter: brightness(0%);
+    border-radius: 30%;
+
 }
 
 .flex-item3 > img {
@@ -119,6 +140,8 @@ body {
     max-width: 200 px;
     margin: 10px;
     padding: 10px;
+    border-radius: 30%;
+
 }
 
 .flex-container-center {
@@ -128,6 +151,8 @@ body {
     align-items: center;
     padding-inline: 15%;
     margin-inline: 10%;
+    border: 1px solid rgb(177, 229, 246);
+    border-radius: 10%;
 }
 
 .flex-container-center-blue {
@@ -139,13 +164,8 @@ body {
     align-items: center;
     padding-inline: 20%;
     margin-inline: 10%;
-}
-
-.button_try1 {
-    color: aliceblue;
-    background-color: rgb(66, 164, 225);
-    padding: 10px;
-    border-radius: 15%;
+    border: 1px solid rgb(177, 229, 246);
+    border-radius: 10%;
 }
  
 .flex-container-client2 {
@@ -156,6 +176,15 @@ body {
     padding: 10px;
     box-shadow: 2px gray;
     margin-inline: 10%;
+    border: 1px solid rgb(177, 229, 246);
+    border-radius: 10%;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    margin: 5%;
 }
 
 .flex1-1 {
@@ -165,6 +194,14 @@ body {
     background-color: rgb(38, 38, 134);
     justify-content: flex-end;
     align-items: flex-start;
+    margin-inline: 10%;
+    border-radius: 10%;
+}
+
+.flex1-1 > img {
+    width: 20px;
+    height: 20px;
+    padding: 1%;
 }
 
 .flex2 {
@@ -202,6 +239,14 @@ body {
     width: 20px;
     height: 40px;
     padding: 4%;
+    background-color: rgb(58, 179, 249);
+}
+
+.koma1 {
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 40px;
 }
 
 .flex5 {
@@ -218,10 +263,16 @@ body {
     padding: 5%;
 }
 
-.flex5 > img {
-    height: 60px;
-    width: 60px;
-    padding-inline: 10%;
+.flex7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex7 > img {
+    justify-content: space-between;
+    padding: 5%;
+    width: 30px;
+    height: 30px;
 }
 
 .flex-container-center-blue1 {
@@ -231,24 +282,23 @@ body {
     background-color: rgb(38, 38, 134);
     color: aliceblue;
     margin-inline: 10%;
+    border-radius: 10%;
 }
 
 .flex6-1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    size: 15%;
-    margin-inline: 5%;
+    size: 10%;
+    margin-inline: 2%;
+    border-radius: 10%;
 }
 
-.flex1 {
-    display: flex;
-    flex-direction: row;
-    padding: 5%;
+.filter1 {
+    transform: scale(-1,1);
+    filter: hue-rotate(280deg);
 }
 
-.flex1-1 > img {
-    width: 20px;
-    height: 20px;
-    padding: 1%;
+.filter2 {
+    filter: grayscale(100%);
 }
