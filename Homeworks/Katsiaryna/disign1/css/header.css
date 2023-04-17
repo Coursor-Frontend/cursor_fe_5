@@ -1,5 +1,5 @@
 
-.header-container {
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,22 +7,22 @@
     background-color: var(--color-white);
 }
 
-.nav-list {
+.nav__list {
     display: flex;
     align-items: center;
 }
 
-.nav-item:not(:last-child) {
+.nav__item:not(:last-child) {
     margin-right: 31px;
 }
 
-.nav-link {
+.nav__link {
     font-size: 18px;
     line-height: 22px;
     color: var(--color);
 }
 
-.header-btn {
+.header__btn {
     padding: 8px 15px;
     margin-right: 40px;
 }

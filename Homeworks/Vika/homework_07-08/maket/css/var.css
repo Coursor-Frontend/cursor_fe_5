@@ -1,0 +1,14 @@
+:root {
+    --main-color: #4C3D74;
+    --main-title-color: #FFFFFF; 
+    --text-spelling: uppercase;
+    --main-title-size: 1.88rem;
+    --main-title-line-height: 2.49rem;
+    --border-colour: rgba(163, 135, 196, 1);
+    --button-text-color: #FFFFFF;
+    --button-colour: hsla(268, 34%, 65%, 1);
+    --button-height: 60px;
+    --button-width: 246px;
+    --shadow: 0 0 10px #A387C4 
+
+}
