@@ -20,6 +20,7 @@ html {
 *,
  * ::before, * ::after {
     box-sizing: inherit;
+    /* border: 1px solid red; */
 }
 
 a {
@@ -48,11 +49,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .section-offset {
-    padding-top: 80px;
+    padding: 80px 0;
 }
 
 .title {
-    margin-bottom: 24px;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
@@ -64,9 +64,17 @@ h1, h2, h3, h4, h5 {
     color: var(--shark-color);
 }
 
+.title_big {
+    font-size: 40px;
+    line-height: 52px;
+}
+.title_midle {
+    font-size: 28px;
+    line-height: 36px;
+}
+
 .descr {
     margin: 0;
-    margin-bottom: 60px;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -87,7 +95,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn {
-    padding: 20px 60px 20px 40px;
+    padding: 20px 40px;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -95,6 +103,23 @@ h1, h2, h3, h4, h5 {
     color: var(--white-color);
     background: var(--cornflower-color);
     border-radius: 8px;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn_small {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 
