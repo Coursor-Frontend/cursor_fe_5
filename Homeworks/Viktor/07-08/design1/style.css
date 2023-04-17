@@ -95,9 +95,10 @@ body {
     margin-top: 20px;
 }
 .bordered-box-footer img {
-    float: right;
-    width: 150px;
-    height: 150px;
+    margin-left: 123px;
+    float: left;
+    width: 268px;
+    height: 268px;
 }
 .bordered-box-footer button {
     padding: 10px 20px;
