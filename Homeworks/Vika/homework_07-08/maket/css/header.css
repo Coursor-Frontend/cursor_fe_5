@@ -1,0 +1,43 @@
+.header-container {
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.header-info__title {
+    margin-bottom: 20px;
+    text-shadow: var(--shadow);
+
+}
+.header-info_achivements {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+}
+.header-info_achivements_block {
+    width: 50%;
+}
+
+.header-info_img {
+    align-self: center;
+}
+.text_hidden  {
+    display: none;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width:1440px) {
+    .text_hidden {display: inline-block;}
+    .main-info__image-bottom {display: none;}
+
+    .header-container_text-part {
+        width: 50%;}
+}
+
+@media only screen and (min-width:900px) {
+    .header-container {
+        flex-direction: row;}
+    body { font-size: 26px;}
+
+  
+    }

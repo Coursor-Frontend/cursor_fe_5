@@ -1,0 +1,174 @@
+.grid-container {
+    display: grid;
+    max-width: 1500px;
+    grid-template-columns: 240px 240px 240px 240px 240px 240px;
+    grid-template-rows: repeat(12, auto);
+    grid-gap: 20px;
+}
+    /*grid-template-areas:
+    "alh-icon   zhongli-icon    ayto-icon   thoma-icon  goro-icon   goro-icon"
+    "zhongli-s  childe          childe      ayto-m      ayto-m      goro-icon"
+    ".          childe          childe      ayto-m      ayto-m      ."
+    "ayto-b     ayto-b          ayto-b      ayto-b      ayto-b      ayto-b"
+    "ayto-b     ayto-b          ayto-b      ayto-b      ayto-b      ayto-b"
+    "ayto-b     ayto-b          ayto-b      ayto-b      ayto-b      ayto-b"
+    "alh-1      alh-1           alh-1       alh-2       alh-2       alh-2"
+    "alh-1      alh-1           alh-1       alh-2       alh-2       alh-2"
+    "thoma-m    thoma-m         thoma-m     zhongli-b   zhongli-b   zhongli-b"
+    "thoma-m    thoma-m         thoma-m     zhongli-b   zhongli-b   zhongli-b"
+    "gouro-b    gouro-b         gouro-b     gouro-c     gouro-c     gouro-c"
+    "gouro-b    gouro-b         gouro-b     gouro-c     gouro-c     gouro-c";
+
+}*/
+
+
+.gallery-item {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+.gallery-item:hover {
+    border: 5px solid rgb(223, 167, 99);
+}
+
+.grid-item_alhaitam-icon {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+ /*grid-area: alh-icon;*/}
+.grid-item_gouro-icon {
+    /*grid-area: goro-icon;*/
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-item_ayto_icon {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  /*grid-area: ayto-icon;*/ 
+}
+.grid-item_thoma-icon {
+    /*grid-area: thoma-icon;*/
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.grid-item_zhongli-icon {
+    /*grid-area: zhongli-icon;*/
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+/*.grid-item_childe { 
+    grid-area: childe;
+   grid-column-start: 2;
+   grid-column-end: 4;
+   grid-row-start: 2;
+   grid-row-end: 3;
+}
+
+.grid-item_zhongli-small { 
+    grid-area: zhongli-s
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;}*/
+
+.grid-item_ayto-middle { 
+    /*grid-area: ayto-m;*/
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.grid-item_alhaitam1 {
+   /* grid-area:alh-1; */
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 7;
+   grid-row-end: 8;
+}
+.grid-item_alhaitam2 {
+    /*grid-area:alh-2;*/
+    grid-column-start: 4;
+    grid-column-end:7;
+    grid-row-start: 7;
+    grid-row-end: 8;
+ }
+.grid-item_gouro-big {
+    /*grid-area: gouro-b;*/
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 11;
+    grid-row-end: 12;
+}
+.grid-item_gouro-center {
+    /*grid-area:gouro-c;*/
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 12;
+}
+.grid-item_ayto-big {
+    /*grid-area:ayto-b;*/
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grid-item_thoma-middle {
+   /* grid-area: thoma-m;*/
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 9;
+   grid-row-end: 10;
+}
+.grid-item_zhongli-big {
+    /*grid-area: zhongli-b */
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+.grid-item_ayto-middle {
+    animation: 
+    border-change 5s alternate ease-in-out;
+    animation-delay: 5s;
+    
+}
+.ayto-middle:hover { 
+    border-radius: 10px;
+    border: 5px solid black;
+ }
+@keyframes border-change {
+    from {width: 10%; }
+    to {width: 100%; }
+}
+.gouro-big:hover {
+    animation: picture-trnsform 6s infinite ;
+}
+.gouro-center:hover {
+    transform: rotate(-10deg);
+}
+@keyframes picture-trnsform {
+    from {
+        transform: rotate(-10deg);
+    }
+    25% {
+        transform: rotate(97deg);
+    }
+    50% {
+        transform: rotate(178deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+    }
+    

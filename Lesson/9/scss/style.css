@@ -1,0 +1,81 @@
+.basic, .extended {
+  background-color: red;
+}
+
+body {
+  color: #833;
+}
+
+.markdown-body {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.markdown-body a {
+  color: blue;
+}
+
+.markdown-body a:hover {
+  color: red;
+}
+
+body {
+  padding: 15px;
+}
+
+.one {
+  background: -webkit-linear-gradient(left, #82d2e5, #c1d72e, #ffa600);
+}
+
+.item-1 {
+  left: 20px;
+}
+
+.item-2 {
+  left: 40px;
+}
+
+.item-3 {
+  left: 60px;
+}
+
+.item-4 {
+  left: 80px;
+}
+
+.photo-home {
+  background: url("home.jpg");
+}
+
+.photo-about {
+  background: url("about.jpg");
+}
+
+.photo-home {
+  background: url("images/home.jpg");
+}
+
+.photo-about {
+  background: url("images/about.jpg");
+}
+
+.photo-services {
+  background: url("images/services.jpg");
+}
+
+.photo-contact {
+  background: url("images/contact.jpg");
+}
+
+.item-6 {
+  width: 12em;
+}
+
+.item-4 {
+  width: 8em;
+}
+
+.item-2 {
+  width: 4em;
+}
+/*# sourceMappingURL=style.css.map */
