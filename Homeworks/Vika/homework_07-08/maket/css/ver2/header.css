@@ -19,16 +19,6 @@ hr {
 
 .top-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.header { 
-    margin-top: 89px;
-    padding: 20px;
-}
-
-.header-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+header { margin-top: 89px;}

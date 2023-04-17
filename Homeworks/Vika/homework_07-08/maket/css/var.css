@@ -9,6 +9,11 @@
     --button-colour: hsla(268, 34%, 65%, 1);
     --button-height: 60px;
     --button-width: 246px;
-    --shadow: 0 0 10px #A387C4 
+    --shadow: 0 0 10px #A387C4;
+    --light-bg: #E5E5E5;
+    --light-theme-text-colour: #4C3D74;
+    --footer-bg: #251933;
+    --light-btn: #4C3D74; 
+ 
 
 }
