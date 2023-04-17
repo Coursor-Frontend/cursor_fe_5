@@ -59,6 +59,10 @@ body {
     justify-content: center;
     margin-bottom: 66px;
 }
+.bordered-box img {
+    width: 280px;
+    height: 281px;
+}
 .bordered-box p {
     vertical-align: middle;
     display: inline-block;
@@ -95,7 +99,7 @@ body {
     margin-top: 20px;
 }
 .bordered-box-footer img {
-    margin-left: 123px;
+    /* margin-left: 123px; */
     float: left;
     width: 268px;
     height: 268px;
@@ -103,6 +107,9 @@ body {
 .bordered-box-footer button {
     padding: 10px 20px;
     background-color: #A387C4;
+}
+.foto1 {
+    margin: 350px 129px 60px 123px;
 }
 
 @media (max-width: 1440px) {
