@@ -1,0 +1,75 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Plug Example
+    body 
+        //- tags
+        div
+            p test
+
+        hr
+
+        //- elements with class
+        div.test
+            p.test2 test
+
+        //- attributes
+        a(href='//google.com') Google
+        br
+        a.test(href='//google.com') Google
+
+        //- case
+        h2 case
+        hr
+        - var friends = 0
+        case friends
+            when 0
+                p error
+            when 1
+                p you have very few friends
+            default
+                p you have #{friends} friends
+
+
+        //- Loops
+        h2 loops
+        hr
+        h3 for
+        - for (var x = 0; x < 10; x++)
+            li item #{x}
+        hr
+        h3 foreach 
+        - var list = ["Uno", "Dos", "Tres", "Cuatro", "Cinco", "Seis"]
+            each item in list
+                li= item
+
+        //- mixins
+        mixin article(title)
+            .article
+                .article-wrapper
+                h1= title
+
+        +article('Hello world')
+
+
+        mixin qna(question, answer)
+            details
+                summary= question
+                p= answer 
+
+        +qna('test1', 'test2')
+        hr
+
+        - 
+            qnas = [
+                { question: 'question45ddf34', answer: 'answer1'}, 
+                { question: 'zefdfdka', answer: 'zeka2'}
+            ]
+
+        each item in qnas
+            details
+                summary= item.question
+                p= item.answer 
