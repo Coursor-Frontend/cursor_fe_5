@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Page
+        style
+            include css/reset.css
+            include css/variables.css
+            include css/main.css
+
+    body
+        include mixins/btn.pug
+        include mixins/qna.pug
+        +btn('записаться', '__transperent')
+        +btn('Программа ', '')
+        header
+            include templates/nav.pug
+            img(src="img/heart.png", alt="", srcset="")
+        main 
+        - 
+            qnas = [
+                { question: 'questionfdgdfgd45ddf34', answer: 'answer1'}, 
+                { question: 'zefdfdka', answer: 'zeka2'},
+                { question: 'test1', answer: 'dfadfa'}
+            ]
+
+        +qna(qnas)
+
+        footer 

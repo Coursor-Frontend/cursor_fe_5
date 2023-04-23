@@ -1,8 +1,0 @@
-h2 {
-    position: relative;
-}
-h2::before {
-    content: url('Vector.svg');
-    display: inline-block;
-    width: 12px;
-}
