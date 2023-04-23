@@ -1,0 +1,68 @@
+.info-about-company_wrapper {position: relative;}
+.info-about-company_title {margin-top: 89px;}
+.info-about-company_text {
+    font-family: "Roboto";
+    font-size: 1.625rem;
+    line-height: 1.9rem;
+    text-align: center;
+    margin: 0.89rem;
+}
+.wind {
+    position: absolute;
+    top: -26%;
+}
+.left-decoration { left: 10%;}
+.right-decoration {
+    transform: rotate(180deg);
+    left: 70%;
+}
+
+.text_bold { font-weight: 500;}
+.text_low { font-weight: 300;}
+.text_semi-bold { font-weight: 400;}
+
+.main__info-about-company_faq {
+    display: flex;
+    margin: 60px 144px 129px 144px;
+
+}
+.faq_col {
+    width: 33.30%;
+    padding: 20px;
+}
+.faq_col_title {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 3.75rem;
+    line-height: 4.57rem;
+    margin-bottom: 60px;
+}
+.info-about-company_text_faq {
+    font-family: "Montserrat";
+    font-size: 1.6rem;
+    line-height: 1.98rem;
+    margin: 10px 0px;
+}
+
+/*Overwiew*/
+
+.overwiew {background-color:#F0F2F4;}
+.overwiew__title { padding: 80px 0;}
+.overwiew_categories {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7%;
+}
+
+.overwiew_categories_item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 230px;
+    margin: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA33;
+
+}

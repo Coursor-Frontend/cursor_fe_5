@@ -1,0 +1,79 @@
+.service-grid { 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 89px 144px 130px 144px;
+}
+.company-services_cart {
+    box-sizing: border-box;
+    margin: 13px 12px;
+    padding-left: 36px;
+    position: relative;
+    width: 342px;
+    height: 378px;
+    border: 1px solid #21354666;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: flex-start;
+}
+.service-title {
+    color: #000000CC;
+    line-height: 1.87rem;  
+}
+.service-text { 
+    font-family: "Montserrat";
+    color: #000000CC;
+    font-size: 2rem;
+    font-weight: 400;   
+}
+.service-number {
+    color:#E5E5E5;
+    line-height: 1.62rem;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+.service-btn {
+    width: 210px;
+    height: 55px;
+    border: 2px solid var(--yellow-button);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+.service-btn:hover { background-color: var(--yellow-button);}
+
+/*Trademarks*/
+.trademark-block {
+background-color: #F0F2F4;
+ padding: 144px 150px; }
+
+.trademark-block__title title {margin-top: 164px;}
+
+.trademark-block_img-blok {display: flex;}
+.trademark-block_img-blok_item {
+    background-color: #FFFFFF;
+    position: relative;
+    width: 464px;
+    height: 256px;
+    margin: 88px 11px 82px 12px;
+}
+.img-blok_item-img {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.trademark-block_text-block {
+    display: flex;
+    margin: 20px 30px;
+}
+.trademark-block_text-block_item {
+    width: 33.30%;
+    margin: 20px;
+}
+.text-block_item_title {margin-bottom: 11px;}
+.text-block_item_text {
+font-family: "Montserrat";
+font-size: 1.12rem;
+font-weight: 400;
+line-height: 1.68rem;
+}

@@ -1,0 +1,72 @@
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 51px 144px 22px 144px ;
+}
+
+.header__navigation-list > li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    font-size: 1.18rem;
+    line-height: 1.44rem;
+}
+
+.login-btn {
+    border: 1px solid  #000000;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+
+.header__contacts {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bright-color);
+}
+.top-btn_small {
+    background-color: #FFFFFF;
+    border-radius: 33px;
+    margin: 18px 154px;
+    width: 174px;
+    height: 51px;
+    box-shadow: 10px 0px, 4px rgba(0, 0, 0, 0.2);
+}
+.header__contacts_icons { margin: 23px 154px 23px 0px;}
+.whatsapp-icon {margin-right: 50px;}
+.header-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-btn {
+    background-color: #F5F5F5;
+    border: 2px solid var(--bright-color);
+    border-radius:33px;
+    box-sizing: border-box;
+    width: 251px;
+    height: 63px;
+    margin: 20px;
+    font-size: 24px;
+    line-height: 28.13px;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+.header-img {margin: 55px 145px;}
+.top-btn:hover { background-color: var(--yellow-button);}
+.header-block__title {margin: 96px 0px 59px 0px;}
+
+.partnerts { 
+    height: 429px;
+    background-color: #F4F4F4;
+    position: relative;
+}
+.partners__title {margin: 72px 0px;}
+.partners-img {
+    position: relative;
+    left: 10%;
+}

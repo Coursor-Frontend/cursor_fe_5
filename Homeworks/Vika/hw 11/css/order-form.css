@@ -1,0 +1,96 @@
+.using-instraction {
+    background-color: #F0F2F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.using-instraction_title { padding-top: 107px;} 
+.using-instraction_block {
+    display: flex;
+    margin: 80px 10px;
+}
+.using-instraction_info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 18px;
+    
+}   
+.using-instraction_steps {
+    width: 335px;
+    height: 335px;
+    background-color: #FFFFFF;
+    margin: 11px 9px;
+
+}
+.using-instraction_steps_number {
+    color: #E5E5E5;
+    font-family: "Montserrat";
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 4.14rem;
+    text-align: left;
+    margin: 30px;
+}
+.using-instraction_steps_text {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    line-height: 1.87rem;
+    text-align: left;
+    margin: 40px;
+}
+
+.using-instraction_form {
+    background-color: #FFFFFF;
+}
+
+.title_bold { 
+    font-weight: 700;
+    padding-top: 120px;
+}
+.title_low { 
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.74rem;
+
+}
+input {
+    border: 1.6px solid #000000;
+    background-color: #F5F5F5;
+    border-radius: 9px;
+    width: 610px;
+    height: 114px;
+    margin: 11px 39px;
+}
+.services-list {
+    border: 2px solid var(--yellow-button);
+    background-color: #F5F5F5;
+    border-radius: 9px;
+    width: 610px;
+    height: 114px;
+    margin: 11px 39px;
+}
+.services_subtitle {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 2.63rem;
+    padding-top: 36px;
+}
+
+.scroll-btn {
+    width: 223px;
+    height: 70px;
+    border: 1px solid #00000066;
+    background-color: #E5E5E5;
+    border-radius: 16.28px;
+    margin-bottom: 78px;
+}
+.scroll-btn > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.61rem;
+    line-height: 1.3rem;
+}
