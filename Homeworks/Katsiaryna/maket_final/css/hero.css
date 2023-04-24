@@ -1,0 +1,207 @@
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__content {
+    padding-top: 55px;
+    max-width: 44%;
+}
+
+.hero__title {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    margin-bottom: 18px;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: 0.3px;
+    color: var(--congress-blue-color);
+}
+
+.hero__descr {
+    margin: 0;
+    margin-bottom: 60px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+    color: var(--bali-hai-color);
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    max-width: 68%;
+    padding: 10px;
+    background-color: var(--white-color);
+    box-shadow: 0px 15px 22px rgba(218, 218, 218, 0.25);
+    border-radius: 15px;
+}
+
+.form__input {
+    margin-right: 51px;
+}
+
+.form__tel {
+    border: none;
+    min-width: 215px;
+    margin-right: 51px;
+}
+
+.form__tel::placeholder {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--placeholder-color);
+}
+
+.form__btn {
+    padding: 14px 16px;
+}
+
+.hero__promo {
+    padding-right: 86px;
+    padding-left: 127px;
+    background-image: url("../img/hero-vector.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    /* filter: drop-shadow(-41px -90px 208px #C4E3FF); */
+}
+
+.hero__image {
+    display: block;
+    
+    filter: drop-shadow(-41px -90px 208px #C4E3FF);
+}
+
+/* .hero__image::before {
+    content:"";
+    display: block;
+    width: 381px;
+    height: 630px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/hero-vector.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: -41px -90px 208px #C4E3FF;
+    filter: drop-shadow(-41px -90px 208px #C4E3FF);
+    position: absolute;
+    z-index: 5;
+} */
+
+.company-trust {
+    display: grid;
+    align-items: center;
+    max-width: 220px;
+    padding: 20px 16px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    column-gap: 12px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    box-shadow: 6px 9px 29px rgba(201, 201, 201, 0.25);
+    position: absolute;
+    left: 0;
+    top: 92px;
+    
+}
+
+.company-trust__star {
+    grid-row: 1 / 3;
+    grid-column: 1 / 1;
+}
+.company-trust__title {
+    align-self: end;
+    grid-row: 1 / 2;
+    grid-column: 2 / 2;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--cape-color);
+}
+
+.company-trust__subtitle {
+    align-self: start;
+    grid-row: 2 / 3;
+    grid-column: 2 / 2;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--dove-gray-color);
+    position: relative;
+}
+
+.company-trust__subtitle::after {
+    content: "";
+    display: block;
+    background-image: url("../img/check-icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+
+.country-trust {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 311px;
+    padding: 35px 24px 49px 29px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 6px 9px 29px rgba(201, 201, 201, 0.25);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+}
+
+.country-trust__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--cape-color);
+}
+
+.country-trust__subtitle {
+    margin-bottom: 19px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--dove-gray-color);
+}
+
+.country-trust__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.country-trust__link {
+    width: 32px;
+    height: 32px;
+}
+.country-trust__link_more {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.5;
+    color: #A6A6A6;
+}
+
+.hero__info-box {
+    padding: 0 196px;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+}
