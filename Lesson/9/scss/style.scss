@@ -1,0 +1,92 @@
+// extend ----------------------------------------
+.basic {
+    background-color: red;
+}
+
+.extended {
+    @extend .basic;
+}
+
+// Variables --------------------------------------
+$red: #833;
+body {
+    color: $red;
+}
+
+// Nesting --------------------------------------
+.markdown-body {
+    a {
+        color: blue;
+        &:hover {
+            color: red;
+        }
+    }
+    // perProperty
+    text: {
+        align: center;          
+        transform: uppercase;
+    }
+}
+
+// mixin -----------------------------------------
+@mixin pad($n: 10px) {
+    padding: $n;
+}
+
+body {
+    @include pad(15px);
+}
+
+
+
+@mixin gradient($direction, $list) { 
+    background: -webkit-linear-gradient($direction, $list);
+}
+
+$orange: #ffa600;
+$blue: #82d2e5;
+$green:#c1d72e;
+
+$list1: $blue, $green, $orange; 
+.one {
+    @include gradient(left, $list1);
+}
+
+
+// loops -----------------------------------------
+// For loops
+@for $i from 1 through 4 {
+    .item-#{$i} { left: 20px * $i; }
+  }
+
+
+
+// Each loops 
+$backgrounds: 
+    (home, 'home.jpg'),
+    (about, 'about.jpg')
+;
+
+@each $id, $image in $backgrounds {
+    .photo-#{$id} {
+        background: url($image);
+    }
+}
+
+// ---------------------------
+$menu-items: home about services contact;
+
+@each $item in $menu-items {
+    .photo-#{$item} {
+        background: url('images/#{$item}.jpg');
+    }
+}
+
+
+// While loops
+$i: 6;
+@while $i > 0 {
+  .item-#{$i} { width: 2em * $i; }
+  $i: $i - 2;
+}
+

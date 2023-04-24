@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+    body 
+        include templates/title.pug
+        include templates/qna.pug
+        +title('test', '_red')
+        +title('test2', '_orange')
+        +title('test3', '_white')
+
+        - 
+            qnas = [
+                { question: 'questionfdgdfgd45ddf34', answer: 'answer1'}, 
+                { question: 'zefdfdka', answer: 'zeka2'},
+                { question: 'test1', answer: 'dfadfa'}
+            ]
+
+        +qna(qnas)
+        hr
+        - 
+            qnas = [
+                { question: 'tesf', answer: 'fdfadf'}, 
+                { question: 'dfadfadf', answer: 'fdfadf'},
+                { question: 'test', answer: 'fadfadf'}
+            ]
+
+        +qna(qnas)
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Grid homework</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat( 4, 50px);
+            grid-template-rows: repeat(4, 50px);
+            grid-template-areas:
+            "item1  item1   item2   item2"
+            "item1  item1   item2   item2"
+            "item3  item3   item3   ."
+            "item3  item3   item3   .";
+        }
+        .item1 {
+            grid-area: item1;
+            background-color: aqua;
+        }
+        .item2 {
+            grid-area: item2;
+            background-color: green;
+        }
+        .item3 {
+            grid-area: item3;
+            background-color: rgb(255, 0, 187);
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item1">1</div>
+        <div class="grid-item item3">3</div>
+    </div>
+
+</body>
+</html>

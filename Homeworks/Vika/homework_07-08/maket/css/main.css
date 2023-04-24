@@ -1,0 +1,78 @@
+.active-advertasting {
+    display: flex;
+    flex-direction: column;
+}
+.active-advertasting__title{margin-bottom: 45px;}
+
+.active-advertasting__block {
+    background-color: #F2EEF7;
+    border: 3px solid #4C3D74;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px 50px;
+    min-width: 304px;
+    max-width: 329px;
+    max-height: 138px;
+    padding: 35px 16px 30px 32px;
+    box-sizing: border-box;
+    position: relative;
+}
+.smile {
+    position: absolute;
+    left: 0;
+    top: -40%;
+}
+.smile.col-middle_img { left: 80%;}
+.bold-p {
+    font-weight: 700;
+    text-align: center;
+}
+picture { text-align: center;}
+
+/*intensive-content */
+.intensive-content__title {
+    padding: 91px 55px 33px 60px;
+   
+}
+.intensive-content__list-with-benefits { 
+    text-align: center;}
+.intensive-content__list-with-benefits_item { margin: 14px 5px;}
+ 
+ .item_star::before {
+    content: url(../images/ver2/eyes-stars-face.svg);
+    padding: 9px;
+}
+
+.item_heards::before {
+    content: url(../images/ver2/fallinlove-face.svg);
+    padding: 9px;}
+
+ .item_money::before{
+    content: url(../images/ver2/money-mouth-face.svg);
+    padding: 9px;} 
+.item_prize::before {
+    content: url(../images/ver2/gift.svg);
+    padding: 9px;
+}   
+/*Tariff*/
+.pricec_tariff { 
+    background-color:#F2EEF7;
+    border-radius: 30px;
+    min-width: 314px;
+    max-width: 369px;
+    margin: 20px 30px;
+}
+
+
+/*Main FAQ*/
+.telegrame-icon {
+    width: 45px;
+    height: 45px;
+    position: relative;
+}
+.telegrame-icon > img {position: absolute;}
+
+.plane {
+    top: 30%;
+    left: 10%;
+}

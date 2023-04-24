@@ -1,0 +1,10 @@
+style
+  include ../css/qna.css
+
+mixin qna(question)
+  each item in question
+    details.qna
+      summary= item.question
+      p= item.answer 
+
+  

@@ -1,0 +1,23 @@
+//- layout.pug
+html
+  head
+    title My Site - #{title}
+    block scripts
+      script(src='/jquery.js')
+    block style 
+      style 
+  body
+    block header
+      header.header
+        ul
+          li
+            a(href="link1") item1
+          li
+            a(href="link2") link2
+          li
+            a(href="link3") link3
+
+    block content
+    block foot
+      #footer
+        p some footer content

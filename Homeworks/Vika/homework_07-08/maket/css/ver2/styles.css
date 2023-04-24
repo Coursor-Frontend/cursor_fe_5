@@ -1,0 +1,17 @@
+@import url(../resset.css);
+@import url(var.css);
+@import url(header.css);
+
+body {
+    background-color: var(--main-color);
+}
+a {
+    text-decoration: none;
+    color: var( --main-title-color);
+}
+button {
+    color: var(--button-text-colour);
+    border: 1px solid var(--button-border);
+    height: var(--button-height);
+    border-radius: var(--button-height);
+}

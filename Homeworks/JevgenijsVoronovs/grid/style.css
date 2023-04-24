@@ -1,0 +1,68 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-gap: 10px;
+    grid-template-areas:
+    "img1   img2   img7    img8    img12   img13   img13   img19"
+    "img3   img3   img9    img8    img14   img14   img18   img19"
+    "img4   img4   img9    img10   img14   img14   img20   img20"
+    "img4   img4   img11   img11   img15   img16   img20   img20"
+    "img5   img6   img11   img11   img15   img17   img20   img20"
+    ;
+
+}
+    
+/* .div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 3; }
+.div4 { grid-area: 3 / 1 / 5 / 3; }
+.div5 { grid-area: 5 / 1 / 6 / 2; }
+.div6 { grid-area: 5 / 2 / 6 / 3; }
+.div7 { grid-area: 1 / 3 / 2 / 4; }
+.div8 { grid-area: 1 / 4 / 3 / 5; }
+.div9 { grid-area: 2 / 3 / 4 / 4; }
+.div10 { grid-area: 3 / 4 / 4 / 5; }
+.div11 { grid-area: 4 / 3 / 6 / 5; }
+.div12 { grid-area: 1 / 5 / 2 / 6; }
+.div13 { grid-area: 1 / 6 / 2 / 8; }
+.div14 { grid-area: 2 / 5 / 4 / 7; }
+.div15 { grid-area: 4 / 5 / 6 / 6; }
+.div16 { grid-area: 4 / 6 / 5 / 7; }
+.div17 { grid-area: 5 / 6 / 6 / 7; }
+.div18 { grid-area: 2 / 7 / 3 / 8; }
+.div19 { grid-area: 1 / 8 / 3 / 9; }
+.div20 { grid-area: 3 / 7 / 6 / 9; } */
+
+.div1 { grid-area: img1; }
+.div2 { grid-area: img2; }
+.div3 { grid-area: img3; }
+.div4 { grid-area: img4; }
+.div5 { grid-area: img5; }
+.div6 { grid-area: img6; }
+.div7 { grid-area: img7; }
+.div8 { grid-area: img8; }
+.div9 { grid-area: img9; }
+.div10 { grid-area: img10; }
+.div11 { grid-area: img11; }
+.div12 { grid-area: img12; }
+.div13 { grid-area: img13; }
+.div14 { grid-area: img14; }
+.div15 { grid-area: img15; }
+.div16 { grid-area: img16; }
+.div17 { grid-area: img17; }
+.div18 { grid-area: img18; }
+.div19 { grid-area: img19; }
+.div20 { grid-area: img20; }
+
+.container {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    background-image: url(https://images.unsplash.com/photo-1536466528142-f752ae7bdd0c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,70 @@
+@import url(resset.css);
+@import url(var.css);
+@import url(header.css);
+@import url(main.css);
+@import url(multilink.css);
+@import url(summary.css);
+@import url(footer.css);
+@font-face {
+    font-family: Futura;
+    src: url(../futura/futur.ttf);
+    src: url(../futura/Futura\ Bold\ Italic\ font.ttf);
+    src: url(../futura/Futura\ Bold\ font.ttf);
+}
+    
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: var( --text-spelling);
+    color: var(--main-title-color);
+    min-width: 414px;
+    font-size: 16px;
+}
+p { font-size: 16px;
+    line-height: 24px;
+    margin: 20px;
+}
+.title { 
+    font-size: var(--main-title-size);
+    line-height: var(--main-title-line-height);
+    font-weight: 700;
+    text-align: center;
+}
+h2 {
+    font-size: 1.87rem;
+    line-height: 2.49rem;
+}
+h3 {
+    font-size: 1.56rem;
+    line-height: 2rem;
+}
+a {
+    text-decoration: none;
+    color: var( --main-title-color);
+}
+.bold-p { font-weight: 700;}
+.light-theme {background-color: var(--light-bg);}
+.title_dark { color: var(--light-theme-text-colour);}
+.light-theme >p {color: var(--light-theme-text-colour);}
+.light-theme > div {color: var(--light-theme-text-colour);}
+details > p {color: var(--light-theme-text-colour);}
+.dark-theme {background-color: var(--main-color);}
+
+
+/*Button*/
+button {
+    background-color: var(--button-colour);
+    border: 1px solid var(--button-colour);
+    border-radius: 30px;
+    color: var(--button-text-color);
+    height: var(--button-height);
+    width: var(--button-width);
+    margin-top: 10px;
+    align-self: center;
+    margin: 10px;
+}
+.btn_light { 
+    background-color: var(--light-btn);
+    border: 4px solid var(--button-colour);}
