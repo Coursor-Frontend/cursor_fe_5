@@ -96,7 +96,7 @@ body {
 .conteiner__tel {
     width: 590px;
     height: 590px;
-    margin: 84px 140px 108px 0;
+    margin: 84px 140px 111px 0;
 }
 .conteiner__text h2 {
     margin: 0 78px 35px 150px;
@@ -106,14 +106,8 @@ body {
     margin: 0 65px 41px 150px;
     line-height: 24px;
 }
-.conteiner__app {
-    margin: 0 19px 221px 150px;
-}
-.conteiner__google {
-    margin: 0 19px 221px 0;
-}
 .conteiner__button {
-    display: flex;
+    margin: 40px 19px 229px 150px;
 }
 .content__business {
     text-align: center;
@@ -152,12 +146,10 @@ body {
 .content__manager2 {
     width:359px;
     height: 272px;
-    margin: 0 75px 190px 150px;
+    margin: 0 75px 60px 150px;
     border-radius: 20px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 34px 0px #1B1C1F1A;
-
-
 }
 .foto__manager2 {
     margin: 32px 147px 24px 148px;
@@ -182,9 +174,6 @@ body {
     height: 610px;
     margin: 39px 54px 39px 75px;
     
-}
-.content__manager {
-    /* display: block; */
 }
 .content__emi1 {
     width: 359px;
@@ -212,11 +201,12 @@ body {
 }
 .content__item {
     display: flex;
+    justify-content: space-evenly;
 }
 .content__emi3 {
     width: 359px;
     height: 272px;
-    margin: 12px 0 202px 54px;
+    margin: 12px 0 72px 54px;
     border-radius: 20px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 34px 0px #1B1C1F1A;
@@ -233,7 +223,7 @@ body {
     background-color:   #1B1C1F;
     color: #FFFFFF;
     border-radius: 6px;
-    margin: 0px 650px 74px 730px;
+    margin: 0px 655px 0px 652px;
 }
 .blok__text {
     text-align: center;
@@ -255,13 +245,14 @@ body {
 }
 .blok__item h3 {
     font-size: 36px;
-    margin: 152px 255px 30px 151px;
+    margin: 152px 246px 30px 151px;
     width: 472px;
     height: 45px;
+    font-weight: 700;
 }
 .blok__item h5 {
     font-size: 20px;
-    margin: 0 246px 41px 151px;
+    margin: 0 236px 41px 151px;
     width: 481px;
     height: 120px;
     line-height: 30px;
@@ -272,19 +263,15 @@ body {
     border-radius: 6px;
     color: #F0FDF4;
     background-color: #1B1C1F;
-    margin: 0 593px 93px 151px;
+    margin: 0 567px 93px 151px;
 }
 .blok__telefon {
     position: relative;
 
 }
-.image__telefon {
-    position: absolute;
-    margin: 38px 182px 49px 99px;
-}
+
 .image__telefon1 {
-    /* position: absolute; */
-    margin: 105px 0px 49px 0;
+    margin-bottom:49px ;
 }
 .sechion__text h3 {
     width: 460px;
@@ -308,7 +295,7 @@ body {
     border-radius: 6px;
     color: #FFFFFF;
     background-color: #1B1C1F;
-    margin: 0 152px 105px 566px;
+    margin: 0 152px 116px 566px;
 }
 .sechion {
     display: flex;
@@ -319,7 +306,7 @@ body {
     margin: 112px 312px 142px 138px;
 }
 .image__item1 {
-    margin: 160px 0px 142px 0;
+    margin: 19px 0px 142px 0;
 }
 .box__conteiner {
     display: flex;
@@ -328,13 +315,12 @@ body {
     font-size: 36px ;
     width: 472px;
     height: 45px;
-    margin: 142px 291px 30px 2px;
+    margin: 0px 291px 30px 2px;
 }
 .box__text {
     width: 481px;
     height: 200px;
-    /* border: solid 1px red; */
-    margin: 0 246px 147px 151px;
+    margin: 100px 246px 147px 151px;
 }
 .btn__box {
     width: 160px;
@@ -363,7 +349,7 @@ body {
     margin: 0px 98px 50px 0px;
 }
 .box__image1 {
-    margin: 65px 0 50px 0;
+    margin: 0px 0 50px 0;
 }
 .action__blok {
     display: flex;
@@ -640,81 +626,94 @@ body {
     left: 30px;
     margin-top: 315px;
 }
+
 .card__text h2 {
-    text-align: center;
     font-size: 48px;
-    width: 646px;
-    height: 44px;
-    /* margin: 106px 396px 10px 397px; */
 }
+
 .card__text {
     position: absolute;
-    right: 400px;
-    margin-top: 155px;
+    right: 520px;
+    margin-top: 106px;
 }
 .card__first {
     position: absolute;
-    right: 600px;
+    right: 500px;
     margin-top: 215px;
 }
 .card__text h4 {
-    width: 521px;
-    height: 30px;
+    margin-top: 10px;
     font-size: 20px;
-    text-align: center
-    margin: 10px 460px 26px 460px;
 }
-.footer__blog {
-    display: flex;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(248, 248, 248, 0) 0%, #F8F8F8 100%);
-}
-.manager__image {
-    margin: 88px 292px 9px 150px;
-}
-.blog_manager h3 {
-    margin: 0 90px 5px 150px;
-    font-size: 18px;
-    line-height: 28px;
-}
-.blog_manager h4 {
-    font-size: 18px;
-    margin: 0 110px 171px 150px;
-    line-height: 28px;
-}
-.blog__contact li {
-    margin-bottom: 21px;
-    margin-left: 0px;
-}
-.blog__link {
-    margin-top: 88px;
-    font-size: 18px;
-}
-.blog__item  li {
-    margin-bottom: 16px;
-}
-.blog__item {
-    margin-top: 137px;
-    margin-left: 60px;
-}
-.blog__border h4 {
-    width: 163px;
-    height: 28px;
-    margin: 88px 345px 21px 227px;
-    font-size: 18px;
-}
-.btn__border1 {
-    width: 226px;
+.btn__card {
+    width: 320px;
     height: 46px;
-    margin: 0 16px 313px 146px;
-    background-color: #FFFFFF;
-    border: 1px solid #D5DAE1;
     border-radius: 8px;
+    background-color:  #FFFFFF;
+    border: #D5DAE1;
+    margin-top: 26px;
 }
-.btn__border2 {
-    width: 117px;
+.btn__card1 {
+    width: 112px;
     height: 48px;
     background-color: #1B1C1F;
     color: #FFFFFF;
     border-radius: 6px;
 }
 
+.footer__blog { 
+    display: flex;
+    justify-content: space-evenly;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(248, 248, 248, 0) 0%, #F8F8F8 100%);
+}
+.manager__image {
+    margin: 88px 194px 9px 150px;
+}
+.blog__manager h3 {
+    margin: 0 118px 5px 150px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.blog__manager h4 {
+    font-size: 18px;
+    margin: 0 118px 171px 150px;
+    line-height: 28px;
+}
+.blog__contact {
+    margin: 88px 33px 48px 0;
+}
+.blog__contact li {
+    margin-bottom: 16px;
+}
+.blog__link {
+    margin-bottom: 21px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.blog__item {
+    margin: 137px 88px 128px 0;
+}
+.blog__item li {
+    margin-bottom: 16px;
+}
+.blog__border {
+    margin: 88px 150px 184px 0;
+}
+.blog__border h4 {
+    margin-bottom: 21px;
+    font-weight: 800;
+}
+.btn__border1 {
+    border: 1px solid #D5DAE1;
+    width: 226px;
+    height: 46px;
+    border-radius: 8px;
+}
+.btn__border2 {
+    width: 117px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #1B1C1F;
+    color: #FFFFFF;
+
+}
