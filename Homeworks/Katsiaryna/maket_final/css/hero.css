@@ -1,3 +1,7 @@
+.hero {
+    padding-bottom: 0;
+}
+
 .hero__inner {
     display: flex;
     justify-content: space-between;
@@ -60,6 +64,7 @@
 
 .form__btn {
     padding: 14px 16px;
+    box-shadow: none;
 }
 
 .hero__promo {
@@ -70,39 +75,20 @@
     background-size: cover;
     background-position: left;
     position: relative;
-    /* filter: drop-shadow(-41px -90px 208px #C4E3FF); */
+    filter: drop-shadow(-41px -90px 208px #C4E3FF);
 }
 
 .hero__image {
     display: block;
     
-    filter: drop-shadow(-41px -90px 208px #C4E3FF);
+    /* filter: drop-shadow(-41px -90px 208px #C4E3FF); */
 }
-
-/* .hero__image::before {
-    content:"";
-    display: block;
-    width: 381px;
-    height: 630px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url("../img/hero-vector.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: -41px -90px 208px #C4E3FF;
-    filter: drop-shadow(-41px -90px 208px #C4E3FF);
-    position: absolute;
-    z-index: 5;
-} */
 
 .company-trust {
     display: grid;
     align-items: center;
     max-width: 220px;
-    padding: 20px 16px;
+    padding: 20px 15px;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 2fr 1fr;
     column-gap: 12px;
@@ -138,6 +124,7 @@
     line-height: 1.5;
     color: var(--dove-gray-color);
     position: relative;
+    padding-right: 10px;
 }
 
 .company-trust__subtitle::after {
@@ -150,7 +137,7 @@
     height: 10px;
     position: absolute;
     right: 0;
-    top: 9px;
+    top: 4px;
 }
 
 .country-trust {
@@ -200,8 +187,3 @@
     color: #A6A6A6;
 }
 
-.hero__info-box {
-    padding: 0 196px;
-    display: grid;
-    grid-template-columns: repeat(4 1fr);
-}

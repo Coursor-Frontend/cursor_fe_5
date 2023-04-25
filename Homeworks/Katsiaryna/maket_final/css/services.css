@@ -1,0 +1,92 @@
+
+.services__title-block {
+    margin-bottom: 60px;
+}
+
+.services__list-wrapper {
+    display: flex;
+    padding: 0 140px;
+    margin-bottom: 120px;
+}
+
+.services__image {
+    display: block;
+    width: 36px;
+    height: 36px;
+    width: 100%;
+}
+
+
+.services__list-wrapper::before {
+    content: "";
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-image: url("../img/services-icon-swiperleft.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    }
+
+.services__list {
+    --ofsets: 3;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: var(--gap);
+
+}
+
+.services__item {
+    font-family: 'DM Sans';
+    padding: 30px;
+    width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
+}
+
+.services__item-icon {
+    margin-bottom: 30px;
+}
+
+.services__item-title {
+    margin-bottom: 10px;
+    /* font-family: 'DM Sans'; */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: var(--congress-blue-color);
+}
+
+.services__item-descr {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    color: var(--nepal-color);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.pagination__item {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #E2ECF4;
+    border-radius: 50%;
+}
+
+.pagination__item:not(:last-child) {
+    margin-right: 12px;
+}
+
+.pagination__item:focus-visible {
+    background-color: var(--primary-color);
+}
+.pagination__item_active {
+    background-color: var(--congress-blue-color);
+}
+
