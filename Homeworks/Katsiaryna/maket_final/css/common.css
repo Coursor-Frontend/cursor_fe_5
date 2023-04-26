@@ -58,7 +58,7 @@ a {
     text-decoration: none;
 }
 
-.img {
+img {
     max-width: 100%;
 }
 
@@ -121,6 +121,19 @@ h1, h2, h3, h4, h5, p {
     text-align: center;
     color: var(--dove-gray-color);
     text-align: center;
+}
+
+.descr_italic {
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+color: var(--gray-color);
+}
+
+.icon {
+    width: 12px;
+    height: 12px;
 }
 
 
