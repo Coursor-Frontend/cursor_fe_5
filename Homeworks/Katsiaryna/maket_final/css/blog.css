@@ -1,0 +1,41 @@
+.blog {
+    padding-top: 247px;
+}
+
+.blog__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.blog__list {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 97px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 34px;
+    column-gap: 28px;
+    text-align: center;
+    padding: 0 86px;
+}
+
+.blog-article__image {
+ object-fit: cover;
+ border-radius: 14px;
+ margin-bottom: 20px;
+}
+
+.blog-article__text {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+    color: #000000;
+}
+
+.blog__btn {
+    padding: 19px 53px;
+}
