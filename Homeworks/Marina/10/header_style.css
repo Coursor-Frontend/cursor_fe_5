@@ -3,20 +3,31 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logo > img {
-    margin: 10px;
+    margin-inline: 10px;
     height: 30px;
 }
 
 .list {
-    color: black;
+    padding: 20px;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
 }
 
 .looking > input {
     width: 250px;
+    height: 30px;
+    border: none;
+}
+
+.looking {
+    border: 1px solid rgb(126, 125, 125);
+    display: flex;
+    align-items: center;
 }
 
 .login > button {

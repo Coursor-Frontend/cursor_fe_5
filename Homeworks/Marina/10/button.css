@@ -1,0 +1,13 @@
+button {
+    background-color: rgb(229, 120, 42);
+    color: aliceblue;
+    border-radius: 10px;
+    height: 45px;
+    max-width: 160px;
+    border: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(54, 53, 53);
+}

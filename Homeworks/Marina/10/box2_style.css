@@ -1,7 +1,10 @@
 .flex-options {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .capital {
@@ -10,9 +13,18 @@
     justify-content: baseline;
 }
 
-.comission {}
-
-.varied {}
+.tabcontent {
+    display: none;
+}
+    
+.tab > button, .tab-button {
+    background-color: white;
+    border: 0px;
+    color: black;
+    box-shadow: none;
+    font-size: 1.5rem;
+    margin-inline: 40px;
+}
 
 .flex-box-banking {
     display: flex;
@@ -21,4 +33,3 @@
     align-items: stretch;
     width: 100%;
 }
-

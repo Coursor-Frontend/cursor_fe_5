@@ -4,15 +4,16 @@
     justify-content: space-around;
     align-items: stretch;
     width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .item-left {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: stretch;
     justify-items: center;
-    margin: 5%;
-    padding: 10%;
+    padding: 3%;
 }
 
 .item-right {
@@ -28,18 +29,21 @@
 
 .name-banking {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
+    align-items: start;
 }
 
 .grid-option {
     display: grid;
-    background-color: rgb(242, 242, 242);
-    border: 1px solid rgb(241, 241, 241);
     justify-items: center;
     justify-content: center;
     gap: 5px;
     width: 120%;
+
+}
+
+@mixin grid-box1 {
 }
 
 .grid-item1 {
@@ -47,6 +51,14 @@
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 1;
+    box-shadow: 5px 5px 20px #878686;
+    padding: 30px;
+    margin: 10px;
+    width: 180px; 
+    height: 140px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
 }
 
 .grid-item2 {
@@ -54,6 +66,13 @@
     grid-row-end: 1;
     grid-column-start: 2;
     grid-column-end: 2;
+    box-shadow: 5px 5px 20px #878686;
+    padding: 30px;
+    margin: 10px;
+    width: 180px; 
+    height: 140px;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .grid-item3 {
@@ -61,6 +80,13 @@
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 1;
+    box-shadow: 5px 5px 20px #878686;
+    padding: 30px;
+    margin: 10px;
+    width: 180px; 
+    height: 140px;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .grid-item4 {
@@ -68,6 +94,13 @@
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 2;
+    box-shadow: 5px 5px 20px #878686;
+    padding: 30px;
+    margin: 10px;
+    width: 180px; 
+    height: 140px;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .grid-item5 {
@@ -75,6 +108,13 @@
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 1;
+    box-shadow: 5px 5px 20px #878686;
+    padding: 30px;
+    margin: 10px;
+    width: 180px; 
+    height: 140px;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .grid-item6 {
@@ -82,4 +122,11 @@
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 2;
+    box-shadow: 5px 5px 20px #878686;
+    padding: 30px;
+    margin: 10px;
+    width: 180px; 
+    height: 140px;
+    text-align: center;
+    border-radius: 20px;
 }

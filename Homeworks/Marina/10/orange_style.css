@@ -1,6 +1,27 @@
-.flex-container-orange {}
+.flex-container-orange {
+    display: flex;
+    flex-direction: row;
+    background-image: radial-gradient(rgb(245, 121, 27) 50%, orangered);
+    color: aliceblue;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-.item-left-orange {}
+.item-left-orange {
+    width: 100%;
+    margin: 100px;
+}
 
-.item-right-orange {}
+.item-right-orange {
+    display: contents;
+    width: 530px; 
+    height: 400px;
+}
 
+.item-right-orange > img {
+    width: 500px;
+    height: 400px;
+    padding: 2%;
+}

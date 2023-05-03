@@ -1,0 +1,35 @@
+.flex-box-learning {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    margin: 30px;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.learning > img {
+    border-radius: 20px;
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+}
+
+.learning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
