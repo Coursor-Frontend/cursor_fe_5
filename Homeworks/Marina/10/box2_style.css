@@ -1,0 +1,24 @@
+.flex-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.capital {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.comission {}
+
+.varied {}
+
+.flex-box-banking {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+}
+

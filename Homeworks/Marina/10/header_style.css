@@ -1,0 +1,29 @@
+.flex-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.logo > img {
+    margin: 10px;
+    height: 30px;
+}
+
+.list {
+    color: black;
+}
+
+.looking > input {
+    width: 250px;
+}
+
+.login > button {
+    border: 1px solid rgb(23, 104, 76);
+    background-color: rgb(23, 104, 76);
+    border-radius: 5px;
+    color: aliceblue;
+    height: 30px;
+    width: 150px;
+}
