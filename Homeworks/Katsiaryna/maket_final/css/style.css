@@ -1,0 +1,16 @@
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Lato:wght@900&family=Montserrat:wght@700&family=Poppins:ital,wght@0,500;0,600;0,700;1,400;1,500;1,700&display=swap');
+  
+
+    @import url("normalize.css");
+
+    @import url("common.css");
+    @import url("header.css");
+    @import url("hero.css");
+    @import url("counter.css");
+    @import url("services.css");
+    @import url("about.css");
+    @import url("why.css");
+    @import url("blog.css");
+    @import url("join.css");
+    @import url("contact.css");
+    @import url("footer.css");

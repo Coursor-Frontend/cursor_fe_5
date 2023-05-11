@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Medium.eot');
+    src: local('SF Pro Display Medium'), local('SFProDisplay-Medium'),
+    url('../fonts/SFProDisplay-Medium.woff2') format('woff2'),
+    url('../fonts/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    min-width: 320px;
+    /* background-color: #E5E5E5; */
+}
+/* div {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500;
+                                                
+} */
+
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+:root {
+    --primary-color: #0085FF;
+    --picton-blue-color: #298DEA;
+    --congress-blue-color: #034D82;
+    --pattens-blue-color: #D3EAFF;
+    --white-color: #FFFFFF;
+    --dove-gray-color: #6C6C6C;
+    --gray-color: #909090;
+    --bali-hai-color: #90A3B4;
+    --placeholder-color: #D5D5D5;
+    --ebony-color: #252B42;
+    --cape-color: #333535;
+    --nepal-color: #8EA9C1;
+    --alto-color: #D3D3D3;
+    --gap: 45px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+ * ::before, * ::after {
+    box-sizing: inherit;
+    /* border: 1px solid red; */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1472px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-offset {
+    padding: 100px 0;
+}
+
+.btn-reset {
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    box-shadow: 0px 5px 20px #BDDFFF;
+    border-radius: 10px;
+    padding: 13px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.title-block  {
+    margin: 0 auto;
+    max-width: 35%;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--cape-color);
+}
+
+.descr {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--dove-gray-color);
+    text-align: center;
+}
+
+.descr_italic {
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+color: var(--gray-color);
+}
+
+.icon {
+    width: 12px;
+    height: 12px;
+}
+
+

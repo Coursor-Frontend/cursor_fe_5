@@ -1,5 +1,18 @@
 .hero {
     background-color: var(--catalina-color);
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/hero-element.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 0.3;
+
 }
 
 .section-block {

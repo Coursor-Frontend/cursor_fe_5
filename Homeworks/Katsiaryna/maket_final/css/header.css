@@ -1,0 +1,39 @@
+.header {
+    padding: 48px 28px 0 28px;
+}
+
+.header__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 50px;
+    color: var(--primary-color);
+}
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 95px;
+}
+
+.nav__link {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--dove-gray-color);
+}
+
+.nav__link_active {
+    color: var(--picton-blue-color);
+}
